@@ -47,6 +47,7 @@ dev_dependencies:
 flutter:
   assets:
     - assets/data/self_eval_full_questions.json
+    - assets/data/feedback_questions.json
     - assets/vid/splash1.mp4
 
   uses-material-design: true

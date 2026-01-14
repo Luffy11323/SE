@@ -6,6 +6,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:intl/intl.dart';
 import 'package:self_evaluator/constants/color_palette.dart';
 import 'package:self_evaluator/constants/app_routes.dart';
+import 'package:self_evaluator/services/reflection_service.dart';
+
 
 class ReflectionHistoryScreen extends StatelessWidget {
   const ReflectionHistoryScreen({super.key});
@@ -13,6 +15,7 @@ class ReflectionHistoryScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final user = FirebaseAuth.instance.currentUser;
+    final service = ReflectionService();
 
     if (user == null) {
       return Scaffold(
@@ -49,16 +52,10 @@ class ReflectionHistoryScreen extends StatelessWidget {
         ),
       ),
       body: StreamBuilder<QuerySnapshot>(
-        stream: FirebaseFirestore.instance
-            .collection('reflections')
-            .where('userId', isEqualTo: user.uid)
-            .orderBy('completedAt', descending: true)
-            .snapshots(),
+        stream: service.getUserReflections(),
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
-            return const Center(
-              child: CircularProgressIndicator(color: AppColors.accentGreen),
-            );
+            return const Center(child: CircularProgressIndicator(color: AppColors.accentGreen));
           }
 
           if (snapshot.hasError) {
@@ -115,13 +112,13 @@ class ReflectionHistoryScreen extends StatelessWidget {
             itemBuilder: (context, index) {
               final doc = docs[index];
               final data = doc.data() as Map<String, dynamic>;
+              final reflectionId = doc.id;
 
               final completedAt = (data['completedAt'] as Timestamp?)?.toDate();
               final dateStr = completedAt != null
                   ? DateFormat('MMMM d, yyyy • h:mm a').format(completedAt)
                   : 'Unknown date';
 
-              // Gentle preview from saved summary
               String preview = "Reflection completed";
               final summary = data['summary'] as Map<String, dynamic>?;
               if (summary != null) {
@@ -158,18 +155,29 @@ class ReflectionHistoryScreen extends StatelessWidget {
                       ),
                     ),
                   ),
-                  trailing: Icon(
-                    Icons.chevron_right_rounded,
-                    color: AppColors.accentGreen.withValues(alpha: 0.7),
+                  trailing: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      IconButton(
+                        icon: Icon(
+                          Icons.delete_outline_rounded,
+                          color: AppColors.errorColor.withValues(alpha: 0.7),
+                        ),
+                        onPressed: () => _confirmDelete(context, reflectionId),
+                      ),
+                      const Icon(
+                        Icons.chevron_right_rounded,
+                        color: AppColors.accentGreen,
+                      ),
+                    ],
                   ),
                   onTap: () {
-                    // Re-open full saved summary
                     Navigator.pushNamed(
                       context,
                       AppRoutes.reflectionSummary,
                       arguments: {
-                        'answers': data['answers'] ?? {}, // fallback
-                        'summary': summary ?? {}, // saved text
+                        'answers': data['answers'] ?? {},
+                        'summary': summary ?? {},
                       },
                     );
                   },
@@ -178,6 +186,51 @@ class ReflectionHistoryScreen extends StatelessWidget {
             },
           );
         },
+      ),
+    );
+  }
+
+  void _confirmDelete(BuildContext context, String reflectionId) {
+    showDialog(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        backgroundColor: AppColors.cardBackground,
+        title: Text(
+          "Delete this reflection?",
+          style: TextStyle(color: AppColors.textLight),
+        ),
+        content: Text(
+          "This action cannot be undone. Your reflection will be permanently removed.",
+          style: TextStyle(color: AppColors.textLight.withValues(alpha: 0.9)),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(ctx),
+            child: Text("Cancel", style: TextStyle(color: AppColors.textLight)),
+          ),
+          TextButton(
+            onPressed: () async {
+              Navigator.pop(ctx);
+              final success = await ReflectionService().deleteReflection(reflectionId);
+              if (success && context.mounted) {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  const SnackBar(
+                    content: Text("Reflection deleted"),
+                    backgroundColor: AppColors.accentGreen,
+                  ),
+                );
+              } else if (context.mounted) {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  const SnackBar(
+                    content: Text("Failed to delete"),
+                    backgroundColor: AppColors.errorColor,
+                  ),
+                );
+              }
+            },
+            child: const Text("Delete", style: TextStyle(color: AppColors.errorColor)),
+          ),
+        ],
       ),
     );
   }

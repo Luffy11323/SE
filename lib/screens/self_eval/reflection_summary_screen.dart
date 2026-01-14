@@ -5,13 +5,16 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:self_evaluator/constants/color_palette.dart';
 import 'package:self_evaluator/constants/app_routes.dart';
+import 'package:self_evaluator/services/reflection_service.dart';
 
 class ReflectionSummaryScreen extends StatefulWidget {
-  final Map<String, int> answers; // {questionIndex: 1..5}
+  final Map<String, int> answers;
+  final DateTime? startedAt; // ← received from questions screen
 
   const ReflectionSummaryScreen({
     super.key,
     required this.answers,
+    this.startedAt,
   });
 
   @override
@@ -27,6 +30,8 @@ class _ReflectionSummaryScreenState extends State<ReflectionSummaryScreen>
 
   late AnimationController _animController;
   late Animation<double> _fadeAnim;
+
+  final ReflectionService _service = ReflectionService();
 
   @override
   void initState() {
@@ -47,85 +52,58 @@ class _ReflectionSummaryScreenState extends State<ReflectionSummaryScreen>
   }
 
   void _generateGentleSummary() {
-    // Simple rule-based summary for MVP (later: real AI prompt)
-    int highCount = 0; // 4 or 5
-    int mediumCount = 0; // 3
-    int lowCount = 0; // 1 or 2
+    int high = 0, medium = 0, low = 0;
 
-    widget.answers.forEach((_, value) {
-      if (value >= 4) highCount++;
-      else if (value == 3) mediumCount++;
-      else lowCount++;
+    widget.answers.forEach((_, v) {
+      if (v >= 4) {
+        high++;
+      } else if (v == 3) { medium++;}
+      else {low++;}
     });
 
     final total = widget.answers.length;
 
-    // Strengths: focus on high answers
     _strengths = [
-      if (highCount >= total * 0.4)
-        "You show consistency and presence in many areas of your life.",
-      if (highCount >= total * 0.3)
-        "There is a quiet strength in how you approach daily moments.",
-      "Your willingness to reflect honestly is itself a beautiful quality.",
+      if (high >= total * 0.4) "You show consistency and presence in many areas.",
+      if (high >= total * 0.3) "There is quiet strength in your daily approach.",
+      "Your willingness to reflect honestly is beautiful.",
     ]..removeWhere((s) => s.isEmpty);
 
-    // Growth areas: gentle, optional phrasing
     _growthAreas = [
-      if (lowCount > 0 || mediumCount > total * 0.4)
-        "There may be moments where pausing a little longer could feel supportive.",
-      if (mediumCount > 0)
-        "Small, intentional steps in certain areas might bring even more ease.",
+      if (low > 0 || medium > total * 0.4) "Pausing longer in certain moments could feel supportive.",
+      if (medium > 0) "Small intentional steps may bring more ease.",
       "Every reflection is already a step toward deeper self-kindness.",
     ]..removeWhere((s) => s.isEmpty);
 
-    // Next steps: always positive, optional
     _nextSteps = [
-      "Notice one small moment today where you can pause and breathe.",
-      "Offer yourself a gentle word of encouragement when things feel heavy.",
-      "Continue showing up — even one question at a time is meaningful.",
-    ];
-
-    // Shuffle lightly so it feels fresh each time (optional)
-    _nextSteps.shuffle();
+      "Notice one moment today to pause and breathe.",
+      "Offer yourself a gentle word when things feel heavy.",
+      "Continue showing up — one question at a time is meaningful.",
+    ]..shuffle();
   }
 
   Future<void> _saveAndReturn() async {
     setState(() => _isSaving = true);
 
-    final user = FirebaseAuth.instance.currentUser;
-    if (user == null) {
-      setState(() => _isSaving = false);
-      return;
-    }
+    final success = await _service.saveReflection(
+      category: 'personal_growth',
+      startedAt: widget.startedAt ?? DateTime.now(),
+      answers: widget.answers,
+      summary: {
+        'strengths': _strengths,
+        'growthAreas': _growthAreas,
+        'nextSteps': _nextSteps,
+      },
+    );
 
-    try {
-      await FirebaseFirestore.instance.collection('reflections').add({
-        'userId': user.uid,
-        'category': 'personal_growth',
-        'startedAt': FieldValue.serverTimestamp(), // ideally pass real started time from questions screen
-        'completedAt': FieldValue.serverTimestamp(),
-        'answers': widget.answers,
-        'summary': {
-          'strengths': _strengths,
-          'growthAreas': _growthAreas,
-          'nextSteps': _nextSteps,
-        },
-      });
+    setState(() => _isSaving = false);
 
-      if (mounted) {
-        Navigator.pushReplacementNamed(context, AppRoutes.dashboard);
-      }
-    } catch (e) {
-      if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text('Could not save reflection — please try again.'),
-            backgroundColor: AppColors.errorColor,
-          ),
-        );
-      }
-    } finally {
-      if (mounted) setState(() => _isSaving = false);
+    if (success != null && mounted) {
+      Navigator.pushReplacementNamed(context, AppRoutes.dashboard);
+    } else if (mounted) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Could not save — please try again')),
+      );
     }
   }
 

@@ -17,7 +17,8 @@ class _ReflectionQuestionsScreenState extends State<ReflectionQuestionsScreen>
     with SingleTickerProviderStateMixin {
   List<Map<String, dynamic>> _questions = [];
   int _currentIndex = 0;
-  Map<String, int> _answers = {}; // question index → 1..5
+  final Map<String, int> _answers = {}; // question index → 1..5
+  DateTime? _startedAt; // ← added to track start time
 
   late AnimationController _animController;
   late Animation<double> _fadeAnim;
@@ -25,6 +26,7 @@ class _ReflectionQuestionsScreenState extends State<ReflectionQuestionsScreen>
   @override
   void initState() {
     super.initState();
+    _startedAt = DateTime.now(); // record when reflection began
     _loadQuestions();
 
     _animController = AnimationController(
@@ -44,7 +46,7 @@ class _ReflectionQuestionsScreenState extends State<ReflectionQuestionsScreen>
       final String jsonString = await rootBundle.loadString('assets/data/self_eval_full_questions.json');
       final List<dynamic> data = json.decode(jsonString);
 
-      // For MVP: filter to ~12 neutral / gentle questions from Personal Growth / Identity categories
+      // MVP filter: only Personal Growth + Identity / Core Values, take first 12
       final filtered = data.where((q) {
         final cat = q['category'] as String?;
         return cat == 'Personal Growth' || cat == 'Identity / Core Values';
@@ -54,14 +56,14 @@ class _ReflectionQuestionsScreenState extends State<ReflectionQuestionsScreen>
         _questions = List<Map<String, dynamic>>.from(filtered);
       });
 
-      // Pre-fill answers with 3 (neutral/middle) so user can skip easily
+      // Pre-fill neutral (3)
       for (int i = 0; i < _questions.length; i++) {
         _answers[i.toString()] = 3;
       }
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Failed to load questions: $e')),
+          SnackBar(content: Text('Failed to load questions')),
         );
       }
     }
@@ -73,11 +75,14 @@ class _ReflectionQuestionsScreenState extends State<ReflectionQuestionsScreen>
       _animController.reset();
       _animController.forward();
     } else {
-      // Go to summary with answers
+      // Go to summary, pass answers + start time
       Navigator.pushNamed(
         context,
         AppRoutes.reflectionSummary,
-        arguments: _answers,
+        arguments: {
+          'answers': _answers,
+          'startedAt': _startedAt,
+        },
       );
     }
   }
@@ -91,7 +96,7 @@ class _ReflectionQuestionsScreenState extends State<ReflectionQuestionsScreen>
   }
 
   void _saveAndExit() {
-    // Optional: save draft to local storage or Firestore later
+    // Optional: save draft later via service
     Navigator.pop(context);
   }
 
@@ -99,6 +104,7 @@ class _ReflectionQuestionsScreenState extends State<ReflectionQuestionsScreen>
   Widget build(BuildContext context) {
     if (_questions.isEmpty) {
       return const Scaffold(
+        backgroundColor: AppColors.primaryDark,
         body: Center(child: CircularProgressIndicator(color: AppColors.accentGreen)),
       );
     }
@@ -120,11 +126,13 @@ class _ReflectionQuestionsScreenState extends State<ReflectionQuestionsScreen>
           style: TextStyle(color: AppColors.textLight, fontSize: 18),
         ),
         actions: [
-          Text(
-            '${_currentIndex + 1}/${_questions.length}',
-            style: TextStyle(color: AppColors.textLight.withValues(alpha: 0.7)),
+          Padding(
+            padding: const EdgeInsets.only(right: 16),
+            child: Text(
+              '${_currentIndex + 1}/${_questions.length}',
+              style: TextStyle(color: AppColors.textLight.withValues(alpha: 0.7)),
+            ),
           ),
-          const SizedBox(width: 16),
         ],
       ),
       body: SafeArea(
@@ -155,7 +163,6 @@ class _ReflectionQuestionsScreenState extends State<ReflectionQuestionsScreen>
 
               const SizedBox(height: 48),
 
-              // Question text
               FadeTransition(
                 opacity: _fadeAnim,
                 child: Text(
@@ -172,7 +179,7 @@ class _ReflectionQuestionsScreenState extends State<ReflectionQuestionsScreen>
 
               const Spacer(),
 
-              // Descriptive scale (no numbers visible)
+              // Descriptive scale (no numbers)
               Column(
                 children: [
                   _buildAnswerOption(5, "Almost always"),
@@ -189,7 +196,6 @@ class _ReflectionQuestionsScreenState extends State<ReflectionQuestionsScreen>
 
               const Spacer(),
 
-              // Navigation buttons
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
