@@ -21,7 +21,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.self_evaluator"
-        minSdk = 23 // ✅ required for google_sign_in
+        minSdk = flutter.minSdkVersion // ✅ required for google_sign_in
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
@@ -39,12 +39,15 @@ flutter {
 }
 
 dependencies {
-    implementation platform('com.google.firebase:firebase-bom:32.7.0')
-    implementation 'com.google.firebase:firebase-auth'
-    implementation 'com.google.firebase:firebase-firestore'
-    implementation 'com.google.firebase:firebase-messaging'
-    implementation 'com.google.firebase:firebase-analytics'
+    // Firebase BOM
+    implementation(platform("com.google.firebase:firebase-bom:32.7.0"))
 
-    // Google Sign-In
-    implementation 'com.google.android.gms:play-services-auth:20.7.0'
+    // Firebase libraries
+    implementation("com.google.firebase:firebase-auth")
+    implementation("com.google.firebase:firebase-firestore")
+    implementation("com.google.firebase:firebase-messaging")
+    implementation("com.google.firebase:firebase-analytics")
+
+    // Google Play Services
+    implementation("com.google.android.gms:play-services-auth:20.7.0")
 }
