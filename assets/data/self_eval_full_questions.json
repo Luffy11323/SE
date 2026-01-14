@@ -1,0 +1,1842 @@
+[
+  {
+    "question": "Do you proactively seek feedback to improve your work performance?",
+    "category": "Professional Life",
+    "level": "Level 1",
+    "tone": "Serious",
+    "repeat_delay": "30 days",
+    "difficulty": "Level 1"
+  },
+  {
+    "question": "Can you adapt your skills to new tools or technologies when required?",
+    "category": "Professional Life",
+    "level": "Level 1",
+    "tone": "Serious",
+    "repeat_delay": "30 days",
+    "difficulty": "Level 1"
+  },
+  {
+    "question": "Do you consistently meet deadlines without external pressure?",
+    "category": "Professional Life",
+    "level": "Level 1",
+    "tone": "Serious",
+    "repeat_delay": "30 days",
+    "difficulty": "Level 1"
+  },
+  {
+    "question": "Are you capable of leading a team when given responsibility?",
+    "category": "Professional Life",
+    "level": "Level 1",
+    "tone": "Serious",
+    "repeat_delay": "30 days",
+    "difficulty": "Level 1"
+  },
+  {
+    "question": "Do you take initiative in identifying and solving problems at work?",
+    "category": "Professional Life",
+    "level": "Level 1",
+    "tone": "Serious",
+    "repeat_delay": "30 days",
+    "difficulty": "Level 1"
+  },
+  {
+    "question": "Can you handle criticism without taking it personally?",
+    "category": "Professional Life",
+    "level": "Level 1",
+    "tone": "Serious",
+    "repeat_delay": "30 days",
+    "difficulty": "Level 1"
+  },
+  {
+    "question": "Do you contribute new ideas in team discussions or projects?",
+    "category": "Professional Life",
+    "level": "Level 1",
+    "tone": "Serious",
+    "repeat_delay": "30 days",
+    "difficulty": "Level 1"
+  },
+  {
+    "question": "Are you comfortable with being held accountable for mistakes?",
+    "category": "Professional Life",
+    "level": "Level 1",
+    "tone": "Serious",
+    "repeat_delay": "30 days",
+    "difficulty": "Level 1"
+  },
+  {
+    "question": "Do you invest time in learning something new for your career?",
+    "category": "Professional Life",
+    "level": "Level 1",
+    "tone": "Serious",
+    "repeat_delay": "30 days",
+    "difficulty": "Level 1"
+  },
+  {
+    "question": "Are you someone others approach for professional advice?",
+    "category": "Professional Life",
+    "level": "Level 1",
+    "tone": "Serious",
+    "repeat_delay": "30 days",
+    "difficulty": "Level 1"
+  },
+  {
+    "question": "When under pressure, can you still lead a team without losing control?",
+    "category": "Professional Life",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you admit professional mistakes publicly and correct them quickly?",
+    "category": "Professional Life",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you confront unethical practices when you see them at work?",
+    "category": "Professional Life",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Can you remain respectful even when your ideas are ignored?",
+    "category": "Professional Life",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Are you willing to take a pay cut to work in a value-aligned company?",
+    "category": "Professional Life",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you take responsibility when team goals are not met?",
+    "category": "Professional Life",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Can you delegate tasks without micromanaging?",
+    "category": "Professional Life",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Are you okay working under someone less experienced than you?",
+    "category": "Professional Life",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you provide mentorship to someone struggling professionally?",
+    "category": "Professional Life",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Would you confront a teammate for violating work ethics?",
+    "category": "Professional Life",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Would you refuse a promotion if it compromises your values?",
+    "category": "Professional Life",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Can you lead without authority purely by influence and trust?",
+    "category": "Professional Life",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Are you loyal to principles even if it affects your reputation?",
+    "category": "Professional Life",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Have you chosen personal growth over job security before?",
+    "category": "Professional Life",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Can you walk away from toxic success to preserve integrity?",
+    "category": "Professional Life",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you uplift others\u2019 careers even if they surpass you?",
+    "category": "Professional Life",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Have you restructured your identity after professional failure?",
+    "category": "Professional Life",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you feel fulfilled when others credit you for their growth?",
+    "category": "Professional Life",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Are you building a legacy rather than chasing titles?",
+    "category": "Professional Life",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Would you risk job loss to expose corruption within your workplace?",
+    "category": "Professional Life",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Can you solve complex problems under time pressure without panic?",
+    "category": "Intelligence (IQ)",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you adapt your problem-solving approach when one method fails?",
+    "category": "Intelligence (IQ)",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Are you able to connect seemingly unrelated ideas to find a solution?",
+    "category": "Intelligence (IQ)",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Can you improve your performance based on logical feedback?",
+    "category": "Intelligence (IQ)",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you identify flaws in reasoning even from experts or authority?",
+    "category": "Intelligence (IQ)",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Are you able to hold multiple perspectives in your mind at once?",
+    "category": "Intelligence (IQ)",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you test your memory or logic with challenges regularly?",
+    "category": "Intelligence (IQ)",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Can you manage mental fatigue during extended cognitive work?",
+    "category": "Intelligence (IQ)",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you self-correct without external validation in logic tasks?",
+    "category": "Intelligence (IQ)",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Can you explain a mistake in your reasoning after discovering it?",
+    "category": "Intelligence (IQ)",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Have you ever changed a deep belief after logical reevaluation?",
+    "category": "Intelligence (IQ)",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you solve real-life problems using abstract reasoning naturally?",
+    "category": "Intelligence (IQ)",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Are you confident making high-stakes decisions with limited info?",
+    "category": "Intelligence (IQ)",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Can you maintain mental clarity during emotionally charged tasks?",
+    "category": "Intelligence (IQ)",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you seek wisdom, not just knowledge or cleverness?",
+    "category": "Intelligence (IQ)",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Have you ever challenged your own success formula to grow smarter?",
+    "category": "Intelligence (IQ)",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you learn equally from failure and success in logic tasks?",
+    "category": "Intelligence (IQ)",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Can you rethink a conclusion you were proud of if data proves otherwise?",
+    "category": "Intelligence (IQ)",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Is critical thinking your default mode regardless of setting?",
+    "category": "Intelligence (IQ)",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you seek long-term mental fitness like athletes do for the body?",
+    "category": "Intelligence (IQ)",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you support friends even when their choices differ from yours?",
+    "category": "Social Life",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Can you walk away from toxic friendships without guilt?",
+    "category": "Social Life",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you mediate conflicts between others calmly?",
+    "category": "Social Life",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Are you consistent in how you treat people across different groups?",
+    "category": "Social Life",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Can you identify your role in a broken friendship?",
+    "category": "Social Life",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you apologize first, even if you feel partially right?",
+    "category": "Social Life",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Are you patient with friends during their low phases?",
+    "category": "Social Life",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Can you express your social needs without being demanding?",
+    "category": "Social Life",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you detect emotional shifts in people without being told?",
+    "category": "Social Life",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Can you maintain social poise in awkward or silent situations?",
+    "category": "Social Life",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Have you ended a bond to preserve your emotional health?",
+    "category": "Social Life",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you prefer depth over popularity in friendships?",
+    "category": "Social Life",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Have you helped a friend grow even when they outgrew you?",
+    "category": "Social Life",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Can you forgive someone fully even if the relationship ends?",
+    "category": "Social Life",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Are you capable of building community where none exists?",
+    "category": "Social Life",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Have you sacrificed social comfort to stand by a truth?",
+    "category": "Social Life",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Is your social identity stable regardless of attention received?",
+    "category": "Social Life",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you uplift those left out or overlooked by others?",
+    "category": "Social Life",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Have you resolved a long-term conflict with maturity?",
+    "category": "Social Life",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Would you choose empathy even if it delays your own progress?",
+    "category": "Social Life",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you adapt your study method when your grades drop?",
+    "category": "Academic Life",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Can you learn under pressure and still retain the material?",
+    "category": "Academic Life",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you seek to understand even topics you dislike?",
+    "category": "Academic Life",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Can you stay focused through long study sessions?",
+    "category": "Academic Life",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you take ownership for academic failures without blaming others?",
+    "category": "Academic Life",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you explain complex ideas to others to reinforce your learning?",
+    "category": "Academic Life",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you evaluate your learning methods regularly?",
+    "category": "Academic Life",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Can you prioritize long-term knowledge over short-term grades?",
+    "category": "Academic Life",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Are you proactive about seeking help when stuck academically?",
+    "category": "Academic Life",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you revisit feedback after assignments to improve?",
+    "category": "Academic Life",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Have you redefined your identity after a major academic failure?",
+    "category": "Academic Life",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you learn purely for curiosity beyond any career goal?",
+    "category": "Academic Life",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Are you willing to unlearn what you once believed academically?",
+    "category": "Academic Life",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you have academic values that guide your educational journey?",
+    "category": "Academic Life",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Have you stayed committed to learning despite external criticism?",
+    "category": "Academic Life",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you continue learning deeply outside the classroom system?",
+    "category": "Academic Life",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Is academic discipline part of your core identity?",
+    "category": "Academic Life",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Would you help a struggling peer even during your own exam stress?",
+    "category": "Academic Life",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Have you changed your life goals based on what you've learned?",
+    "category": "Academic Life",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you prefer intellectual honesty over easy success in academics?",
+    "category": "Academic Life",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you train even when results aren't visible yet?",
+    "category": "Sports / Fitness",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you push through boredom in repetitive workouts?",
+    "category": "Sports / Fitness",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Can you stay motivated without external validation?",
+    "category": "Sports / Fitness",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you play fair even when losing in sports?",
+    "category": "Sports / Fitness",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Can you accept loss and learn from it without ego?",
+    "category": "Sports / Fitness",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you support teammates even when you're benched?",
+    "category": "Sports / Fitness",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you track and improve physical weaknesses?",
+    "category": "Sports / Fitness",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Can you adjust your training to avoid burnout?",
+    "category": "Sports / Fitness",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you recover strategically after setbacks or injury?",
+    "category": "Sports / Fitness",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you reflect mentally on your performance, not just physically?",
+    "category": "Sports / Fitness",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you view fitness as part of your life's purpose?",
+    "category": "Sports / Fitness",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Would you still train if no one ever saw the results?",
+    "category": "Sports / Fitness",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you respect your body even during performance lows?",
+    "category": "Sports / Fitness",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Have you stayed humble after major athletic achievements?",
+    "category": "Sports / Fitness",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you influence others to build a healthier lifestyle?",
+    "category": "Sports / Fitness",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Have you transformed pain into discipline through sport?",
+    "category": "Sports / Fitness",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Is physical mastery part of how you see your future self?",
+    "category": "Sports / Fitness",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you play sports to grow character, not just to win?",
+    "category": "Sports / Fitness",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Can you walk away from unhealthy athletic pressure or doping?",
+    "category": "Sports / Fitness",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Have you ever rebuilt your identity after a fitness failure?",
+    "category": "Sports / Fitness",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you stay composed during emotionally triggering conversations?",
+    "category": "Emotional Self",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Can you identify emotions without letting them control you?",
+    "category": "Emotional Self",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you acknowledge sadness without suppressing or dramatizing it?",
+    "category": "Emotional Self",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Are you able to regulate anger even when justified?",
+    "category": "Emotional Self",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you reflect before emotionally confronting someone?",
+    "category": "Emotional Self",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Can you express emotions honestly without causing harm?",
+    "category": "Emotional Self",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you know your emotional triggers and prepare for them?",
+    "category": "Emotional Self",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Are you self-compassionate when you feel shame or guilt?",
+    "category": "Emotional Self",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you process grief in healthy, constructive ways?",
+    "category": "Emotional Self",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Can you remain empathetic even while hurt?",
+    "category": "Emotional Self",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Have you transformed emotional pain into purpose?",
+    "category": "Emotional Self",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you find strength in emotional vulnerability?",
+    "category": "Emotional Self",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Have you forgiven someone who deeply wronged you?",
+    "category": "Emotional Self",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Is emotional honesty part of your daily life?",
+    "category": "Emotional Self",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Have you broken a destructive emotional pattern consciously?",
+    "category": "Emotional Self",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you choose peace over emotional retaliation?",
+    "category": "Emotional Self",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Have you outgrown emotional survival mechanisms from childhood?",
+    "category": "Emotional Self",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you coach or guide others emotionally while staying grounded?",
+    "category": "Emotional Self",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Can you face uncomfortable emotions without shutting down?",
+    "category": "Emotional Self",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Is emotional maturity part of your self-respect?",
+    "category": "Emotional Self",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you help resolve family conflicts even if not caused by you?",
+    "category": "Family Role",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Can you express disagreement respectfully with elders?",
+    "category": "Family Role",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you contribute emotionally, not just materially, to your family?",
+    "category": "Family Role",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Can you say no to family without guilt when needed?",
+    "category": "Family Role",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you support struggling family members despite past issues?",
+    "category": "Family Role",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Are you available for family in times of emotional crisis?",
+    "category": "Family Role",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you balance your personal life and family needs effectively?",
+    "category": "Family Role",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Can you admit when you\u2019ve hurt a family member unintentionally?",
+    "category": "Family Role",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you stay connected with extended family when possible?",
+    "category": "Family Role",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you share family responsibilities fairly with others?",
+    "category": "Family Role",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Have you healed a generational wound in your family line?",
+    "category": "Family Role",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you redefine family roles beyond traditional expectations?",
+    "category": "Family Role",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Have you rebuilt trust after a major family fallout?",
+    "category": "Family Role",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Is serving your family part of your personal mission?",
+    "category": "Family Role",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you guide younger members with love, not authority?",
+    "category": "Family Role",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Can you be a role model in your family during adversity?",
+    "category": "Family Role",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Have you transformed family pain into purpose?",
+    "category": "Family Role",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you love your family even when you're misunderstood?",
+    "category": "Family Role",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Is your identity as a sibling/child/parent rooted in empathy?",
+    "category": "Family Role",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Would you prioritize family peace over being right?",
+    "category": "Family Role",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Can you discuss difficult topics in a relationship without withdrawal?",
+    "category": "Relationships",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you remain respectful during relationship conflicts?",
+    "category": "Relationships",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Can you sense emotional distance and address it proactively?",
+    "category": "Relationships",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Are you emotionally available even during personal stress?",
+    "category": "Relationships",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you allow your partner to grow independently of you?",
+    "category": "Relationships",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Can you disagree in love without trying to control?",
+    "category": "Relationships",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you consistently invest in relationship growth?",
+    "category": "Relationships",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Are you honest about your feelings even when inconvenient?",
+    "category": "Relationships",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you ask for forgiveness when you\u2019ve hurt your partner?",
+    "category": "Relationships",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you listen to understand, not just to reply, in arguments?",
+    "category": "Relationships",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Would you end a relationship that compromises your core values?",
+    "category": "Relationships",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Can you love without attachment or dependency?",
+    "category": "Relationships",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Have you grown stronger after a painful breakup?",
+    "category": "Relationships",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Is emotional responsibility your priority in love?",
+    "category": "Relationships",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Have you supported someone through trauma without draining yourself?",
+    "category": "Relationships",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Can you remain loyal in spirit even during physical distance?",
+    "category": "Relationships",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you grow the relationship without forcing its direction?",
+    "category": "Relationships",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Have you forgiven betrayal and rebuilt trust over time?",
+    "category": "Relationships",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Is your love language rooted in understanding, not need?",
+    "category": "Relationships",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Have you chosen emotional maturity over attraction before?",
+    "category": "Relationships",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you stay spiritually consistent during personal hardship?",
+    "category": "Religious Self",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Can you resist peer pressure that challenges your faith values?",
+    "category": "Religious Self",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you repent sincerely after a spiritual lapse?",
+    "category": "Religious Self",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Can you focus during worship despite distractions?",
+    "category": "Religious Self",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you give charity or help secretly without recognition?",
+    "category": "Religious Self",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you turn to your faith during emotional lows?",
+    "category": "Religious Self",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Can you separate culture from religion in your practices?",
+    "category": "Religious Self",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you avoid judging others\u2019 faith journeys?",
+    "category": "Religious Self",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Are you committed to internal sincerity over public rituals?",
+    "category": "Religious Self",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you feel connected to Allah in everyday actions?",
+    "category": "Religious Self",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Have you reconnected spiritually after a period of doubt?",
+    "category": "Religious Self",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you practice faith even when socially inconvenient?",
+    "category": "Religious Self",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Have you embraced religious growth after a crisis?",
+    "category": "Religious Self",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Is your relationship with Allah deeply personal and evolving?",
+    "category": "Religious Self",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Have you helped others find faith without pushing them?",
+    "category": "Religious Self",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you continue worship even when feeling distant spiritually?",
+    "category": "Religious Self",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Have you sacrificed for faith-based integrity?",
+    "category": "Religious Self",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Is spiritual discipline part of your daily self-definition?",
+    "category": "Religious Self",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Have you forgiven a religious community for hurting you?",
+    "category": "Religious Self",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you seek Allah\u2019s pleasure more than worldly approval?",
+    "category": "Religious Self",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Can you take breaks from social media without feeling anxious?",
+    "category": "Online Persona",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you avoid sharing personal victories for validation?",
+    "category": "Online Persona",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Can you express opinions online without attacking others?",
+    "category": "Online Persona",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you stay focused during work despite internet distractions?",
+    "category": "Online Persona",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you curate your feed to avoid negativity and addiction?",
+    "category": "Online Persona",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Can you avoid compulsive checking of notifications?",
+    "category": "Online Persona",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you critically verify content before sharing it?",
+    "category": "Online Persona",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Are you unaffected by online comparisons or trends?",
+    "category": "Online Persona",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you disconnect digitally to connect with reality?",
+    "category": "Online Persona",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Are your online interactions respectful and consistent with your values?",
+    "category": "Online Persona",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Would you delete an online identity if it affected your real self?",
+    "category": "Online Persona",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Have you helped someone digitally without expecting attention?",
+    "category": "Online Persona",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Is your digital use aligned with your life goals?",
+    "category": "Online Persona",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you create content that uplifts others quietly?",
+    "category": "Online Persona",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Have you broken free from online validation addiction?",
+    "category": "Online Persona",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Would you walk away from viral attention to preserve peace?",
+    "category": "Online Persona",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Have you used the internet as a tool for inner growth?",
+    "category": "Online Persona",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you stay anchored in real-world identity despite online noise?",
+    "category": "Online Persona",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Have you fasted digitally to realign your values?",
+    "category": "Online Persona",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Would you erase your digital past if it misrepresented your truth?",
+    "category": "Online Persona",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you stand by your values when others challenge them?",
+    "category": "Identity / Core Values",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Have you rejected opportunities that go against your principles?",
+    "category": "Identity / Core Values",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you reflect deeply on who you are becoming?",
+    "category": "Identity / Core Values",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Can you differentiate between your voice and societal noise?",
+    "category": "Identity / Core Values",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Are you confident expressing your beliefs in difficult rooms?",
+    "category": "Identity / Core Values",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you say no when something doesn\u2019t align with your values?",
+    "category": "Identity / Core Values",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Can you redefine success based on your inner compass?",
+    "category": "Identity / Core Values",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you align your habits with your identity?",
+    "category": "Identity / Core Values",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Have you corrected your course when you felt misaligned?",
+    "category": "Identity / Core Values",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Do you live by your values more than you preach them?",
+    "category": "Identity / Core Values",
+    "level": "Level 2",
+    "tone": "Serious",
+    "repeat_delay": "60 days",
+    "difficulty": "Level 2"
+  },
+  {
+    "question": "Have you reinvented your life based on your core values?",
+    "category": "Identity / Core Values",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do your decisions reflect a unified internal identity?",
+    "category": "Identity / Core Values",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Can you resist societal labels that don\u2019t reflect who you are?",
+    "category": "Identity / Core Values",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Have you walked away from comfort to stay authentic?",
+    "category": "Identity / Core Values",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Would you give up recognition to stay in integrity?",
+    "category": "Identity / Core Values",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Is your identity resilient under change or failure?",
+    "category": "Identity / Core Values",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Do you evolve your values consciously over time?",
+    "category": "Identity / Core Values",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Have you mentored others to discover their inner compass?",
+    "category": "Identity / Core Values",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Is personal truth more important to you than approval?",
+    "category": "Identity / Core Values",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  },
+  {
+    "question": "Would you rebuild everything if your identity demanded it?",
+    "category": "Identity / Core Values",
+    "level": "Level 3",
+    "tone": "Reflective",
+    "repeat_delay": "90 days",
+    "difficulty": "Level 3"
+  }
+]

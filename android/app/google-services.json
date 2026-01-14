@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "195195207193",
+    "project_id": "selfevaluator-001",
+    "storage_bucket": "selfevaluator-001.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195195207193:android:d0d14d7e29f4c75bfcf488",
+        "android_client_info": {
+          "package_name": "com.example.self_evaluator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "195195207193-v3n1rn29jtq35u1ai848c2gmhg6hqfa7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.self_evaluator",
+            "certificate_hash": "e9616a7fd8db986cd65400d5d4ebc0f177677eb9"
+          }
+        },
+        {
+          "client_id": "195195207193-0el6lb95c6jbr9npmor0mv0rugctogsm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl5BH5NwvWtp0155JbK4NhHy-buNBGqZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "195195207193-0el6lb95c6jbr9npmor0mv0rugctogsm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "195195207193-ppu714e4pjgfnu2qr1qaoqs2ba8ubj2f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.selfevaluator.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195195207193:android:0d1cfbbab38fadd9fcf488",
+        "android_client_info": {
+          "package_name": "com.selfevaluator.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "195195207193-4vi4ujhmr7hh2bi5tjsjqtnkmnate1p7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.selfevaluator.app",
+            "certificate_hash": "e9616a7fd8db986cd65400d5d4ebc0f177677eb9"
+          }
+        },
+        {
+          "client_id": "195195207193-0el6lb95c6jbr9npmor0mv0rugctogsm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl5BH5NwvWtp0155JbK4NhHy-buNBGqZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "195195207193-0el6lb95c6jbr9npmor0mv0rugctogsm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "195195207193-ppu714e4pjgfnu2qr1qaoqs2ba8ubj2f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.selfevaluator.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

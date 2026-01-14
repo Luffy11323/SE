@@ -1,0 +1,1762 @@
+[
+  {
+    "id": "PR1",
+    "question": "How comfortable are you discussing personal issues with me?",
+    "category": "Personal Relationships",
+    "level": "1",
+    "tone": "neutral",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "PR2",
+    "question": "Do I provide emotional support when you're going through tough times?",
+    "category": "Personal Relationships",
+    "level": "1",
+    "tone": "empathetic",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+  {
+    "id": "PR3",
+    "question": "How often do I express appreciation for your presence in my life?",
+    "category": "Personal Relationships",
+    "level": "1",
+    "tone": "warm",
+    "repeat_delay": 21,
+    "difficulty": 2
+  },
+  {
+    "id": "PR4",
+    "question": "Do you feel heard and understood when we talk?",
+    "category": "Personal Relationships",
+    "level": "2",
+    "tone": "empathetic",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "PR5",
+    "question": "How well do I handle conflict in our relationship?",
+    "category": "Personal Relationships",
+    "level": "2",
+    "tone": "reflective",
+    "repeat_delay": 30,
+    "difficulty": 4
+  },
+  {
+    "id": "PR6",
+    "question": "Do I take responsibility when I make mistakes in our relationship?",
+    "category": "Personal Relationships",
+    "level": "2",
+    "tone": "accountable",
+    "repeat_delay": 30,
+    "difficulty": 4
+  },
+  {
+    "id": "PR7",
+    "question": "How consistent am I in maintaining communication with you?",
+    "category": "Personal Relationships",
+    "level": "1",
+    "tone": "neutral",
+    "repeat_delay": 21,
+    "difficulty": 2
+  },
+  {
+    "id": "PR8",
+    "question": "Do I show interest in what's going on in your life?",
+    "category": "Personal Relationships",
+    "level": "1",
+    "tone": "warm",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "PR9",
+    "question": "How dependable am I when you need support?",
+    "category": "Personal Relationships",
+    "level": "2",
+    "tone": "trustworthy",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "PR10",
+    "question": "How emotionally safe do you feel around me?",
+    "category": "Personal Relationships",
+    "level": "2",
+    "tone": "safe",
+    "repeat_delay": 30,
+    "difficulty": 3
+  },
+  {
+    "id": "PR11",
+    "question": "Do I respect your boundaries in conversations or behavior?",
+    "category": "Personal Relationships",
+    "level": "2",
+    "tone": "respectful",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "PR12",
+    "question": "How well do I balance speaking and listening during our conversations?",
+    "category": "Personal Relationships",
+    "level": "2",
+    "tone": "neutral",
+    "repeat_delay": 30,
+    "difficulty": 4
+  },
+  {
+    "id": "PR13",
+    "question": "How supported do you feel in your goals and ambitions?",
+    "category": "Personal Relationships",
+    "level": "2",
+    "tone": "encouraging",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "PR14",
+    "question": "Do I contribute positively to your mental well-being?",
+    "category": "Personal Relationships",
+    "level": "2",
+    "tone": "mental_health",
+    "repeat_delay": 30,
+    "difficulty": 4
+  },
+  {
+    "id": "PR15",
+    "question": "How often do we share meaningful moments together?",
+    "category": "Personal Relationships",
+    "level": "1",
+    "tone": "sentimental",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "PR16",
+    "question": "Do I make time for our relationship consistently?",
+    "category": "Personal Relationships",
+    "level": "1",
+    "tone": "loyal",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "PR17",
+    "question": "Do I offer help without being asked when I sense you're in need?",
+    "category": "Personal Relationships",
+    "level": "2",
+    "tone": "proactive",
+    "repeat_delay": 30,
+    "difficulty": 3
+  },
+  {
+    "id": "PR18",
+    "question": "Do I respect your individuality and personal choices?",
+    "category": "Personal Relationships",
+    "level": "2",
+    "tone": "supportive",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "PR19",
+    "question": "How well do I handle stress without affecting our connection?",
+    "category": "Personal Relationships",
+    "level": "2",
+    "tone": "resilient",
+    "repeat_delay": 30,
+    "difficulty": 4
+  },
+  {
+    "id": "PR20",
+    "question": "How emotionally in tune do you feel I am with you?",
+    "category": "Personal Relationships",
+    "level": "2",
+    "tone": "emotional_awareness",
+    "repeat_delay": 30,
+    "difficulty": 4
+  },
+
+  {
+    "id": "WP1",
+    "question": "How clearly do I communicate our goals and expectations?",
+    "category": "Workplace/Professional",
+    "level": "1",
+    "tone": "neutral",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "WP2",
+    "question": "How confident do you feel bringing concerns to me at work?",
+    "category": "Workplace/Professional",
+    "level": "1",
+    "tone": "encouraging",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+  {
+    "id": "WP3",
+    "question": "Do I recognize your contributions effectively?",
+    "category": "Workplace/Professional",
+    "level": "2",
+    "tone": "affirming",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "WP4",
+    "question": "How fairly do I treat all team members?",
+    "category": "Workplace/Professional",
+    "level": "2",
+    "tone": "fair",
+    "repeat_delay": 30,
+    "difficulty": 4
+  },
+  {
+    "id": "WP5",
+    "question": "How effective am I at resolving conflicts among coworkers?",
+    "category": "Workplace/Professional",
+    "level": "2",
+    "tone": "problem_solver",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "WP6",
+    "question": "Do I promote collaboration across the team?",
+    "category": "Workplace/Professional",
+    "level": "1",
+    "tone": "collaborative",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "WP7",
+    "question": "How frequently do I follow through on promises at work?",
+    "category": "Workplace/Professional",
+    "level": "2",
+    "tone": "accountable",
+    "repeat_delay": 30,
+    "difficulty": 3
+  },
+  {
+    "id": "WP8",
+    "question": "How open am I to feedback from my colleagues?",
+    "category": "Workplace/Professional",
+    "level": "2",
+    "tone": "open_minded",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "WP9",
+    "question": "Do I provide enough autonomy in your daily tasks?",
+    "category": "Workplace/Professional",
+    "level": "1",
+    "tone": "empowering",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "WP10",
+    "question": "Do I set a positive tone for the workplace culture?",
+    "category": "Workplace/Professional",
+    "level": "1",
+    "tone": "inspirational",
+    "repeat_delay": 21,
+    "difficulty": 2
+  },
+  {
+    "id": "WP11",
+    "question": "Do I respect different working styles within the team?",
+    "category": "Workplace/Professional",
+    "level": "2",
+    "tone": "inclusive",
+    "repeat_delay": 30,
+    "difficulty": 3
+  },
+  {
+    "id": "WP12",
+    "question": "How transparent am I in decision-making processes?",
+    "category": "Workplace/Professional",
+    "level": "2",
+    "tone": "transparent",
+    "repeat_delay": 30,
+    "difficulty": 4
+  },
+  {
+    "id": "WP13",
+    "question": "How often do I encourage your professional development?",
+    "category": "Workplace/Professional",
+    "level": "2",
+    "tone": "supportive",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "WP14",
+    "question": "Do I adapt well to changes or challenges in our work environment?",
+    "category": "Workplace/Professional",
+    "level": "2",
+    "tone": "adaptive",
+    "repeat_delay": 30,
+    "difficulty": 4
+  },
+  {
+    "id": "WP15",
+    "question": "How consistently do I model the behavior I expect from others?",
+    "category": "Workplace/Professional",
+    "level": "2",
+    "tone": "leadership",
+    "repeat_delay": 30,
+    "difficulty": 4
+  },
+  {
+    "id": "WP16",
+    "question": "Do I recognize and celebrate team achievements regularly?",
+    "category": "Workplace/Professional",
+    "level": "1",
+    "tone": "positive",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "WP17",
+    "question": "How effectively do I handle pressure without impacting the team?",
+    "category": "Workplace/Professional",
+    "level": "2",
+    "tone": "resilient",
+    "repeat_delay": 30,
+    "difficulty": 4
+  },
+  {
+    "id": "WP18",
+    "question": "Do I make decisions that align with our values and goals?",
+    "category": "Workplace/Professional",
+    "level": "2",
+    "tone": "value_driven",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "WP19",
+    "question": "How effectively do I communicate across departments or teams?",
+    "category": "Workplace/Professional",
+    "level": "2",
+    "tone": "cross_functional",
+    "repeat_delay": 30,
+    "difficulty": 3
+  },
+  {
+    "id": "WP20",
+    "question": "Do I create an environment that motivates and energizes you?",
+    "category": "Workplace/Professional",
+    "level": "2",
+    "tone": "motivational",
+    "repeat_delay": 30,
+    "difficulty": 3
+  },
+   { 
+    "id": "CG1",
+    "question": "How inclusive do you find our community events?",
+    "category": "Community/Groups",
+    "level": "1",
+    "tone": "welcoming",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "CG2",
+    "question": "Do community members treat each other with respect?",
+    "category": "Community/Groups",
+    "level": "1",
+    "tone": "respectful",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "CG3",
+    "question": "How easy is it to contribute your ideas to the group?",
+    "category": "Community/Groups",
+    "level": "2",
+    "tone": "open",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "CG4",
+    "question": "Do local leaders respond well to community concerns?",
+    "category": "Community/Groups",
+    "level": "2",
+    "tone": "responsive",
+    "repeat_delay": 30,
+    "difficulty": 3
+  },
+  {
+    "id": "CG5",
+    "question": "How well does our group resolve disagreements?",
+    "category": "Community/Groups",
+    "level": "2",
+    "tone": "diplomatic",
+    "repeat_delay": 30,
+    "difficulty": 4
+  },
+  {
+    "id": "CG6",
+    "question": "Do you feel a sense of belonging in our community?",
+    "category": "Community/Groups",
+    "level": "1",
+    "tone": "belonging",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "CG7",
+    "question": "How supportive is the community during personal challenges?",
+    "category": "Community/Groups",
+    "level": "2",
+    "tone": "empathetic",
+    "repeat_delay": 30,
+    "difficulty": 3
+  },
+  {
+    "id": "CG8",
+    "question": "Do community events reflect diverse interests and needs?",
+    "category": "Community/Groups",
+    "level": "2",
+    "tone": "inclusive",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "CG9",
+    "question": "Is information about local initiatives easily accessible?",
+    "category": "Community/Groups",
+    "level": "1",
+    "tone": "informative",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "CG10",
+    "question": "Do community leaders actively engage with members?",
+    "category": "Community/Groups",
+    "level": "2",
+    "tone": "leadership",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "CG11",
+    "question": "How well does our group plan and organize events?",
+    "category": "Community/Groups",
+    "level": "2",
+    "tone": "organized",
+    "repeat_delay": 30,
+    "difficulty": 3
+  },
+  {
+    "id": "CG12",
+    "question": "Are your skills and talents utilized in the group?",
+    "category": "Community/Groups",
+    "level": "2",
+    "tone": "appreciative",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "CG13",
+    "question": "How consistent is our group communication?",
+    "category": "Community/Groups",
+    "level": "1",
+    "tone": "clear",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "CG14",
+    "question": "Do you feel safe and respected in our meetings or forums?",
+    "category": "Community/Groups",
+    "level": "2",
+    "tone": "safe_space",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "CG15",
+    "question": "Does our group encourage volunteerism and community service?",
+    "category": "Community/Groups",
+    "level": "1",
+    "tone": "motivational",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "CG16",
+    "question": "Are newcomers warmly welcomed into the group?",
+    "category": "Community/Groups",
+    "level": "1",
+    "tone": "welcoming",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "CG17",
+    "question": "How equitable are leadership opportunities in the group?",
+    "category": "Community/Groups",
+    "level": "2",
+    "tone": "fairness",
+    "repeat_delay": 30,
+    "difficulty": 4
+  },
+  {
+    "id": "CG18",
+    "question": "How accessible are community services and resources?",
+    "category": "Community/Groups",
+    "level": "2",
+    "tone": "inclusive",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "CG19",
+    "question": "Do you feel your opinions shape group decisions?",
+    "category": "Community/Groups",
+    "level": "2",
+    "tone": "empowered",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "CG20",
+    "question": "Does the community promote healthy dialogue on key issues?",
+    "category": "Community/Groups",
+    "level": "2",
+    "tone": "constructive",
+    "repeat_delay": 30,
+    "difficulty": 4
+  } , 
+{ 
+    "id": "CC1",
+    "question": "How satisfied are you with the overall quality of the service?",
+    "category": "Customer/Client",
+    "level": "1",
+    "tone": "neutral",
+    "repeat_delay": 7,
+    "difficulty": 2
+  },
+  {
+    "id": "CC2",
+    "question": "Did you feel your concerns were listened to and addressed?",
+    "category": "Customer/Client",
+    "level": "1",
+    "tone": "empathetic",
+    "repeat_delay": 7,
+    "difficulty": 2
+  },
+  {
+    "id": "CC3",
+    "question": "Was the service delivered in a timely manner?",
+    "category": "Customer/Client",
+    "level": "1",
+    "tone": "responsive",
+    "repeat_delay": 7,
+    "difficulty": 2
+  },
+  {
+    "id": "CC4",
+    "question": "Did our product/service meet your expectations?",
+    "category": "Customer/Client",
+    "level": "2",
+    "tone": "neutral",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+  {
+    "id": "CC5",
+    "question": "Would you recommend our services to others?",
+    "category": "Customer/Client",
+    "level": "2",
+    "tone": "trust",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+  {
+    "id": "CC6",
+    "question": "How easy was it to navigate and understand our offerings?",
+    "category": "Customer/Client",
+    "level": "1",
+    "tone": "clear",
+    "repeat_delay": 7,
+    "difficulty": 2
+  },
+  {
+    "id": "CC7",
+    "question": "How well do we resolve problems or complaints?",
+    "category": "Customer/Client",
+    "level": "2",
+    "tone": "supportive",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+  {
+    "id": "CC8",
+    "question": "Was our team friendly and professional throughout your experience?",
+    "category": "Customer/Client",
+    "level": "1",
+    "tone": "friendly",
+    "repeat_delay": 7,
+    "difficulty": 2
+  },
+  {
+    "id": "CC9",
+    "question": "Do you feel our pricing reflects the value of what you received?",
+    "category": "Customer/Client",
+    "level": "2",
+    "tone": "value",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+  {
+    "id": "CC10",
+    "question": "Was follow-up support provided after your initial experience?",
+    "category": "Customer/Client",
+    "level": "2",
+    "tone": "proactive",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "CC11",
+    "question": "How consistent is the quality of our service over time?",
+    "category": "Customer/Client",
+    "level": "2",
+    "tone": "reliable",
+    "repeat_delay": 21,
+    "difficulty": 4
+  },
+  {
+    "id": "CC12",
+    "question": "Do our services adapt to your changing needs?",
+    "category": "Customer/Client",
+    "level": "2",
+    "tone": "adaptive",
+    "repeat_delay": 21,
+    "difficulty": 4
+  },
+  {
+    "id": "CC13",
+    "question": "Do you feel valued as a customer?",
+    "category": "Customer/Client",
+    "level": "2",
+    "tone": "valued",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+  {
+    "id": "CC14",
+    "question": "How effective is our communication during service delivery?",
+    "category": "Customer/Client",
+    "level": "2",
+    "tone": "communication",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+  {
+    "id": "CC15",
+    "question": "How likely are you to return to us for future needs?",
+    "category": "Customer/Client",
+    "level": "2",
+    "tone": "predictive",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+  {
+    "id": "CC16",
+    "question": "How seamless was the onboarding or purchase process?",
+    "category": "Customer/Client",
+    "level": "1",
+    "tone": "smooth",
+    "repeat_delay": 7,
+    "difficulty": 2
+  },
+  {
+    "id": "CC17",
+    "question": "Was our staff knowledgeable and helpful?",
+    "category": "Customer/Client",
+    "level": "1",
+    "tone": "expertise",
+    "repeat_delay": 7,
+    "difficulty": 2
+  },
+  {
+    "id": "CC18",
+    "question": "How would you rate the overall professionalism of our team?",
+    "category": "Customer/Client",
+    "level": "2",
+    "tone": "professional",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+  {
+    "id": "CC19",
+    "question": "Did we exceed your expectations in any area?",
+    "category": "Customer/Client",
+    "level": "2",
+    "tone": "exceeding",
+    "repeat_delay": 21,
+    "difficulty": 4
+  },
+  {
+    "id": "CC20",
+    "question": "Do you trust us to deliver consistently in the future?",
+    "category": "Customer/Client",
+    "level": "2",
+    "tone": "trustworthy",
+    "repeat_delay": 21,
+    "difficulty": 4
+  } , 
+ 
+  {
+    "id": "ED1",
+    "question": "How engaging are the teaching methods used?",
+    "category": "Educational/Academic",
+    "level": "1",
+    "tone": "engaging",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "ED2",
+    "question": "Do instructors explain complex topics clearly?",
+    "category": "Educational/Academic",
+    "level": "1",
+    "tone": "clarity",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "ED3",
+    "question": "Are learning materials relevant and up-to-date?",
+    "category": "Educational/Academic",
+    "level": "1",
+    "tone": "academic",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "ED4",
+    "question": "Do instructors provide timely feedback on assignments?",
+    "category": "Educational/Academic",
+    "level": "2",
+    "tone": "constructive",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "ED5",
+    "question": "How approachable are educators outside of class?",
+    "category": "Educational/Academic",
+    "level": "1",
+    "tone": "accessible",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "ED6",
+    "question": "Does the course content match your learning goals?",
+    "category": "Educational/Academic",
+    "level": "2",
+    "tone": "relevant",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "ED7",
+    "question": "How well do academic staff handle classroom issues?",
+    "category": "Educational/Academic",
+    "level": "2",
+    "tone": "leadership",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "ED8",
+    "question": "Are extracurricular opportunities aligned with your interests?",
+    "category": "Educational/Academic",
+    "level": "1",
+    "tone": "inclusive",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "ED9",
+    "question": "How effective is the academic advising support?",
+    "category": "Educational/Academic",
+    "level": "2",
+    "tone": "supportive",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "ED10",
+    "question": "Are your classes intellectually stimulating?",
+    "category": "Educational/Academic",
+    "level": "2",
+    "tone": "challenging",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "ED11",
+    "question": "Do you feel safe and respected in your academic environment?",
+    "category": "Educational/Academic",
+    "level": "2",
+    "tone": "safe",
+    "repeat_delay": 30,
+    "difficulty": 4
+  },
+  {
+    "id": "ED12",
+    "question": "How helpful is peer interaction in your learning process?",
+    "category": "Educational/Academic",
+    "level": "2",
+    "tone": "collaborative",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "ED13",
+    "question": "How accessible are digital resources for your studies?",
+    "category": "Educational/Academic",
+    "level": "1",
+    "tone": "technological",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "ED14",
+    "question": "Are grading policies clear and consistent?",
+    "category": "Educational/Academic",
+    "level": "2",
+    "tone": "fairness",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "ED15",
+    "question": "Do professors encourage questions and participation?",
+    "category": "Educational/Academic",
+    "level": "2",
+    "tone": "interactive",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "ED16",
+    "question": "Is the academic environment inclusive and respectful?",
+    "category": "Educational/Academic",
+    "level": "2",
+    "tone": "respect",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "ED17",
+    "question": "Are you given opportunities to apply what you’ve learned?",
+    "category": "Educational/Academic",
+    "level": "2",
+    "tone": "practical",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "ED18",
+    "question": "Do your courses include real-world applications?",
+    "category": "Educational/Academic",
+    "level": "2",
+    "tone": "relevance",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "ED19",
+    "question": "How satisfied are you with your academic growth?",
+    "category": "Educational/Academic",
+    "level": "2",
+    "tone": "reflective",
+    "repeat_delay": 30,
+    "difficulty": 4
+  },
+  {
+    "id": "ED20",
+    "question": "Do educators foster a love for learning?",
+    "category": "Educational/Academic",
+    "level": "2",
+    "tone": "motivational",
+    "repeat_delay": 30,
+    "difficulty": 4
+  } , 
+ { 
+    "id": "SM1",
+    "question": "How engaging is my social media content?",
+    "category": "Social Media/Online",
+    "level": "1",
+    "tone": "neutral",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "SM2",
+    "question": "Do I interact with followers in a meaningful way?",
+    "category": "Social Media/Online",
+    "level": "2",
+    "tone": "interactive",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "SM3",
+    "question": "How consistent is the tone and quality of my posts?",
+    "category": "Social Media/Online",
+    "level": "2",
+    "tone": "consistent",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "SM4",
+    "question": "Does my content provide value or insights?",
+    "category": "Social Media/Online",
+    "level": "2",
+    "tone": "value",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "SM5",
+    "question": "How authentic does my online presence feel?",
+    "category": "Social Media/Online",
+    "level": "2",
+    "tone": "authentic",
+    "repeat_delay": 30,
+    "difficulty": 4
+  },
+  {
+    "id": "SM6",
+    "question": "Do I respond to comments and messages promptly?",
+    "category": "Social Media/Online",
+    "level": "1",
+    "tone": "responsive",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "SM7",
+    "question": "How well do I foster a sense of community?",
+    "category": "Social Media/Online",
+    "level": "2",
+    "tone": "inclusive",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "SM8",
+    "question": "Do my posts encourage thoughtful discussion?",
+    "category": "Social Media/Online",
+    "level": "2",
+    "tone": "engaging",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "SM9",
+    "question": "How frequently do I share meaningful updates?",
+    "category": "Social Media/Online",
+    "level": "1",
+    "tone": "active",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "SM10",
+    "question": "Do I maintain a healthy balance of personal and professional content?",
+    "category": "Social Media/Online",
+    "level": "2",
+    "tone": "balanced",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "SM11",
+    "question": "How creative is my content presentation?",
+    "category": "Social Media/Online",
+    "level": "1",
+    "tone": "creative",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "SM12",
+    "question": "Do I follow trends while maintaining originality?",
+    "category": "Social Media/Online",
+    "level": "2",
+    "tone": "trend_aware",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "SM13",
+    "question": "Do I acknowledge community contributions (e.g., shares, mentions)?",
+    "category": "Social Media/Online",
+    "level": "2",
+    "tone": "appreciative",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "SM14",
+    "question": "How professional is my online presence?",
+    "category": "Social Media/Online",
+    "level": "1",
+    "tone": "professional",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "SM15",
+    "question": "Does my content reflect my personality and values?",
+    "category": "Social Media/Online",
+    "level": "2",
+    "tone": "personal",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "SM16",
+    "question": "Do I address current topics in a thoughtful manner?",
+    "category": "Social Media/Online",
+    "level": "2",
+    "tone": "thoughtful",
+    "repeat_delay": 30,
+    "difficulty": 4
+  },
+  {
+    "id": "SM17",
+    "question": "Do I credit original creators and sources properly?",
+    "category": "Social Media/Online",
+    "level": "2",
+    "tone": "ethical",
+    "repeat_delay": 30,
+    "difficulty": 3
+  },
+  {
+    "id": "SM18",
+    "question": "Do I post regularly enough to keep followers engaged?",
+    "category": "Social Media/Online",
+    "level": "1",
+    "tone": "frequency",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "SM19",
+    "question": "Do I use appropriate language and visuals for my audience?",
+    "category": "Social Media/Online",
+    "level": "1",
+    "tone": "appropriate",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "SM20",
+    "question": "How comfortable are you sharing or recommending my content?",
+    "category": "Social Media/Online",
+    "level": "2",
+    "tone": "trust",
+    "repeat_delay": 30,
+    "difficulty": 3
+  } , 
+ 
+  {
+    "id": "HW1",
+    "question": "How comfortable did you feel discussing your concerns?",
+    "category": "Health & Wellness",
+    "level": "1",
+    "tone": "empathetic",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "HW2",
+    "question": "Was your health issue addressed thoroughly?",
+    "category": "Health & Wellness",
+    "level": "1",
+    "tone": "thorough",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "HW3",
+    "question": "Did the provider explain things clearly?",
+    "category": "Health & Wellness",
+    "level": "1",
+    "tone": "clarity",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "HW4",
+    "question": "Were treatment plans discussed with your input?",
+    "category": "Health & Wellness",
+    "level": "2",
+    "tone": "collaborative",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "HW5",
+    "question": "How timely was the care you received?",
+    "category": "Health & Wellness",
+    "level": "1",
+    "tone": "efficient",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "HW6",
+    "question": "How respectful was the staff toward you?",
+    "category": "Health & Wellness",
+    "level": "1",
+    "tone": "respectful",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "HW7",
+    "question": "How well were your personal goals incorporated into the plan?",
+    "category": "Health & Wellness",
+    "level": "2",
+    "tone": "goal_oriented",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "HW8",
+    "question": "Did you feel heard and understood?",
+    "category": "Health & Wellness",
+    "level": "2",
+    "tone": "empathetic",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "HW9",
+    "question": "Was the wellness plan sustainable for your lifestyle?",
+    "category": "Health & Wellness",
+    "level": "2",
+    "tone": "practical",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "HW10",
+    "question": "How would you rate your overall experience?",
+    "category": "Health & Wellness",
+    "level": "2",
+    "tone": "reflective",
+    "repeat_delay": 30,
+    "difficulty": 3
+  },
+  {
+    "id": "HW11",
+    "question": "Did the fitness trainer adapt to your pace and needs?",
+    "category": "Health & Wellness",
+    "level": "1",
+    "tone": "adaptive",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "HW12",
+    "question": "Was the wellness environment clean and welcoming?",
+    "category": "Health & Wellness",
+    "level": "1",
+    "tone": "welcoming",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "HW13",
+    "question": "How often did you receive progress updates or assessments?",
+    "category": "Health & Wellness",
+    "level": "2",
+    "tone": "progress_tracking",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "HW14",
+    "question": "Were wellness or dietary suggestions practical and achievable?",
+    "category": "Health & Wellness",
+    "level": "2",
+    "tone": "realistic",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "HW15",
+    "question": "Did you feel emotionally supported during the program?",
+    "category": "Health & Wellness",
+    "level": "2",
+    "tone": "supportive",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "HW16",
+    "question": "Was the information you received medically accurate?",
+    "category": "Health & Wellness",
+    "level": "2",
+    "tone": "accurate",
+    "repeat_delay": 30,
+    "difficulty": 4
+  },
+  {
+    "id": "HW17",
+    "question": "Was your privacy respected at all times?",
+    "category": "Health & Wellness",
+    "level": "1",
+    "tone": "private",
+    "repeat_delay": 14,
+    "difficulty": 2
+  },
+  {
+    "id": "HW18",
+    "question": "How motivated did you feel throughout the experience?",
+    "category": "Health & Wellness",
+    "level": "2",
+    "tone": "motivational",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "HW19",
+    "question": "Were post-treatment recommendations helpful?",
+    "category": "Health & Wellness",
+    "level": "2",
+    "tone": "helpful",
+    "repeat_delay": 21,
+    "difficulty": 3
+  },
+  {
+    "id": "HW20",
+    "question": "Do you feel more confident in managing your well-being now?",
+    "category": "Health & Wellness",
+    "level": "2",
+    "tone": "empowering",
+    "repeat_delay": 30,
+    "difficulty": 4
+  }, 
+  {
+    "id": "SF1",
+    "question": "How satisfied were you with the speed of service?",
+    "category": "Service Feedback",
+    "level": "1",
+    "tone": "efficient",
+    "repeat_delay": 7,
+    "difficulty": 2
+  },
+  {
+    "id": "SF2",
+    "question": "Was the staff polite and welcoming?",
+    "category": "Service Feedback",
+    "level": "1",
+    "tone": "friendly",
+    "repeat_delay": 7,
+    "difficulty": 2
+  },
+  {
+    "id": "SF3",
+    "question": "Did the service team address your needs effectively?",
+    "category": "Service Feedback",
+    "level": "2",
+    "tone": "customer_centric",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+  {
+    "id": "SF4",
+    "question": "How well was the service environment maintained?",
+    "category": "Service Feedback",
+    "level": "1",
+    "tone": "cleanliness",
+    "repeat_delay": 7,
+    "difficulty": 2
+  },
+  {
+    "id": "SF5",
+    "question": "Was the quality of food/service up to your expectations?",
+    "category": "Service Feedback",
+    "level": "1",
+    "tone": "quality",
+    "repeat_delay": 7,
+    "difficulty": 2
+  },
+  {
+    "id": "SF6",
+    "question": "Did you face any issues during your experience?",
+    "category": "Service Feedback",
+    "level": "2",
+    "tone": "inquisitive",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+  {
+    "id": "SF7",
+    "question": "Was the check-out or payment process convenient?",
+    "category": "Service Feedback",
+    "level": "1",
+    "tone": "practical",
+    "repeat_delay": 7,
+    "difficulty": 2
+  },
+  {
+    "id": "SF8",
+    "question": "How likely are you to return to this location?",
+    "category": "Service Feedback",
+    "level": "2",
+    "tone": "predictive",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+  {
+    "id": "SF9",
+    "question": "Was your wait time acceptable?",
+    "category": "Service Feedback",
+    "level": "1",
+    "tone": "responsive",
+    "repeat_delay": 7,
+    "difficulty": 2
+  },
+  {
+    "id": "SF10",
+    "question": "Did the service exceed your expectations?",
+    "category": "Service Feedback",
+    "level": "2",
+    "tone": "positive",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+  {
+    "id": "SF11",
+    "question": "Were the staff attentive and proactive?",
+    "category": "Service Feedback",
+    "level": "2",
+    "tone": "attentive",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+  {
+    "id": "SF12",
+    "question": "How satisfied were you with the range of offerings?",
+    "category": "Service Feedback",
+    "level": "2",
+    "tone": "variety",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+  {
+    "id": "SF13",
+    "question": "Were your dietary or special needs accommodated?",
+    "category": "Service Feedback",
+    "level": "2",
+    "tone": "inclusive",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+  {
+    "id": "SF14",
+    "question": "Was it easy to locate what you needed?",
+    "category": "Service Feedback",
+    "level": "1",
+    "tone": "convenient",
+    "repeat_delay": 7,
+    "difficulty": 2
+  },
+  {
+    "id": "SF15",
+    "question": "Was the ambiance comfortable and inviting?",
+    "category": "Service Feedback",
+    "level": "1",
+    "tone": "aesthetic",
+    "repeat_delay": 7,
+    "difficulty": 2
+  },
+  {
+    "id": "SF16",
+    "question": "Did our team make you feel valued?",
+    "category": "Service Feedback",
+    "level": "2",
+    "tone": "warm",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+  {
+    "id": "SF17",
+    "question": "How well do we follow up after your experience?",
+    "category": "Service Feedback",
+    "level": "2",
+    "tone": "follow_up",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+  {
+    "id": "SF18",
+    "question": "Was our service consistent with previous visits?",
+    "category": "Service Feedback",
+    "level": "2",
+    "tone": "consistent",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+  {
+    "id": "SF19",
+    "question": "Do you consider this location a reliable option?",
+    "category": "Service Feedback",
+    "level": "2",
+    "tone": "trustworthy",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+  {
+    "id": "SF20",
+    "question": "Would you recommend us to others based on your visit?",
+    "category": "Service Feedback",
+    "level": "2",
+    "tone": "referral",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+ 
+  {
+    "id": "EV1",
+    "question": "How organized was the event?",
+    "category": "Event Feedback",
+    "level": "1",
+    "tone": "neutral",
+    "repeat_delay": 7,
+    "difficulty": 2
+  },
+  {
+    "id": "EV2",
+    "question": "Did the event meet your expectations?",
+    "category": "Event Feedback",
+    "level": "1",
+    "tone": "satisfaction",
+    "repeat_delay": 7,
+    "difficulty": 2
+  },
+  {
+    "id": "EV3",
+    "question": "Were the event materials clear and helpful?",
+    "category": "Event Feedback",
+    "level": "1",
+    "tone": "informative",
+    "repeat_delay": 7,
+    "difficulty": 2
+  },
+  {
+    "id": "EV4",
+    "question": "How engaging were the speakers or presenters?",
+    "category": "Event Feedback",
+    "level": "2",
+    "tone": "engaging",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+  {
+    "id": "EV5",
+    "question": "Did you have enough opportunities to network or connect?",
+    "category": "Event Feedback",
+    "level": "2",
+    "tone": "social",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+  {
+    "id": "EV6",
+    "question": "How accessible was the venue or platform?",
+    "category": "Event Feedback",
+    "level": "1",
+    "tone": "inclusive",
+    "repeat_delay": 7,
+    "difficulty": 2
+  },
+  {
+    "id": "EV7",
+    "question": "Were you informed of the schedule and any changes?",
+    "category": "Event Feedback",
+    "level": "2",
+    "tone": "transparent",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+  {
+    "id": "EV8",
+    "question": "Did the event stick to the schedule?",
+    "category": "Event Feedback",
+    "level": "1",
+    "tone": "timely",
+    "repeat_delay": 7,
+    "difficulty": 2
+  },
+  {
+    "id": "EV9",
+    "question": "Was the event content relevant to your interests?",
+    "category": "Event Feedback",
+    "level": "2",
+    "tone": "relevant",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+  {
+    "id": "EV10",
+    "question": "Were you satisfied with the event's value for your time/money?",
+    "category": "Event Feedback",
+    "level": "2",
+    "tone": "value",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+  {
+    "id": "EV11",
+    "question": "How enjoyable was your overall experience?",
+    "category": "Event Feedback",
+    "level": "2",
+    "tone": "enjoyable",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+  {
+    "id": "EV12",
+    "question": "How helpful was the event staff or support team?",
+    "category": "Event Feedback",
+    "level": "1",
+    "tone": "supportive",
+    "repeat_delay": 7,
+    "difficulty": 2
+  },
+  {
+    "id": "EV13",
+    "question": "Would you attend a future event from us?",
+    "category": "Event Feedback",
+    "level": "2",
+    "tone": "predictive",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+  {
+    "id": "EV14",
+    "question": "Were there enough interactive segments (e.g., Q&A, polls)?",
+    "category": "Event Feedback",
+    "level": "2",
+    "tone": "interactive",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+  {
+    "id": "EV15",
+    "question": "Did the event match the promotional description?",
+    "category": "Event Feedback",
+    "level": "1",
+    "tone": "honest",
+    "repeat_delay": 7,
+    "difficulty": 2
+  },
+  {
+    "id": "EV16",
+    "question": "Did the environment feel welcoming and inclusive?",
+    "category": "Event Feedback",
+    "level": "2",
+    "tone": "welcoming",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+  {
+    "id": "EV17",
+    "question": "Was the registration process easy?",
+    "category": "Event Feedback",
+    "level": "1",
+    "tone": "convenient",
+    "repeat_delay": 7,
+    "difficulty": 2
+  },
+  {
+    "id": "EV18",
+    "question": "How likely are you to recommend this event?",
+    "category": "Event Feedback",
+    "level": "2",
+    "tone": "referral",
+    "repeat_delay": 14,
+    "difficulty": 3
+  },
+  {
+    "id": "EV19",
+    "question": "How visually appealing was the event setup?",
+    "category": "Event Feedback",
+    "level": "1",
+    "tone": "visual",
+    "repeat_delay": 7,
+    "difficulty": 2
+  },
+  {
+    "id": "EV20",
+    "question": "Do you have suggestions for how we can improve?",
+    "category": "Event Feedback",
+    "level": "2",
+    "tone": "inquisitive",
+    "repeat_delay": 14,
+    "difficulty": 3
+  } , 
+ 
+  {
+    "id": "SI1",
+    "question": "Do you notice any positive changes in my behavior recently?",
+    "category": "Self-Improvement",
+    "level": "2",
+    "tone": "reflective",
+    "repeat_delay": 30,
+    "difficulty": 3
+  },
+  {
+    "id": "SI2",
+    "question": "How well do I handle setbacks or failure?",
+    "category": "Self-Improvement",
+    "level": "2",
+    "tone": "resilience",
+    "repeat_delay": 30,
+    "difficulty": 4
+  },
+  {
+    "id": "SI3",
+    "question": "Am I open to feedback and constructive criticism?",
+    "category": "Self-Improvement",
+    "level": "2",
+    "tone": "growth_minded",
+    "repeat_delay": 30,
+    "difficulty": 4
+  },
+  {
+    "id": "SI4",
+    "question": "How consistent am I in my personal goals?",
+    "category": "Self-Improvement",
+    "level": "2",
+    "tone": "self_discipline",
+    "repeat_delay": 30,
+    "difficulty": 3
+  },
+  {
+    "id": "SI5",
+    "question": "Do I reflect on past actions to improve future outcomes?",
+    "category": "Self-Improvement",
+    "level": "2",
+    "tone": "reflective",
+    "repeat_delay": 30,
+    "difficulty": 4
+  },
+  {
+    "id": "SI6",
+    "question": "Do I take responsibility for my mistakes?",
+    "category": "Self-Improvement",
+    "level": "2",
+    "tone": "accountability",
+    "repeat_delay": 30,
+    "difficulty": 3
+  },
+  {
+    "id": "SI7",
+    "question": "Am I becoming more emotionally aware and balanced?",
+    "category": "Self-Improvement",
+    "level": "2",
+    "tone": "emotional_growth",
+    "repeat_delay": 30,
+    "difficulty": 4
+  },
+  {
+    "id": "SI8",
+    "question": "How proactive am I in resolving personal conflicts?",
+    "category": "Self-Improvement",
+    "level": "2",
+    "tone": "conflict_resolution",
+    "repeat_delay": 30,
+    "difficulty": 4
+  },
+  {
+    "id": "SI9",
+    "question": "Do I inspire or motivate those around me?",
+    "category": "Self-Improvement",
+    "level": "2",
+    "tone": "inspirational",
+    "repeat_delay": 30,
+    "difficulty": 3
+  },
+  {
+    "id": "SI10",
+    "question": "Have I improved my communication skills over time?",
+    "category": "Self-Improvement",
+    "level": "2",
+    "tone": "communication",
+    "repeat_delay": 30,
+    "difficulty": 3
+  },
+  {
+    "id": "SI11",
+    "question": "Do I manage my time effectively?",
+    "category": "Self-Improvement",
+    "level": "2",
+    "tone": "productivity",
+    "repeat_delay": 30,
+    "difficulty": 3
+  },
+  {
+    "id": "SI12",
+    "question": "How well do I stay motivated when challenges arise?",
+    "category": "Self-Improvement",
+    "level": "2",
+    "tone": "determination",
+    "repeat_delay": 30,
+    "difficulty": 3
+  },
+  {
+    "id": "SI13",
+    "question": "Have I become more consistent in healthy habits?",
+    "category": "Self-Improvement",
+    "level": "2",
+    "tone": "wellness",
+    "repeat_delay": 30,
+    "difficulty": 3
+  },
+  {
+    "id": "SI14",
+    "question": "Do I regularly challenge myself to learn something new?",
+    "category": "Self-Improvement",
+    "level": "2",
+    "tone": "learning",
+    "repeat_delay": 30,
+    "difficulty": 4
+  },
+  {
+    "id": "SI15",
+    "question": "Do I support others in their personal growth?",
+    "category": "Self-Improvement",
+    "level": "2",
+    "tone": "supportive",
+    "repeat_delay": 30,
+    "difficulty": 3
+  }
+]
