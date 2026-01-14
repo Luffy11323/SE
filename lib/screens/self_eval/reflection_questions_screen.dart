@@ -44,26 +44,71 @@ class _ReflectionQuestionsScreenState extends State<ReflectionQuestionsScreen>
   Future<void> _loadQuestions() async {
     try {
       final String jsonString = await rootBundle.loadString('assets/data/self_eval_full_questions.json');
-      final List<dynamic> data = json.decode(jsonString);
+      final List<dynamic> allQuestions = json.decode(jsonString);
 
-      // MVP filter: only Personal Growth + Identity / Core Values, take first 12
-      final filtered = data.where((q) {
-        final cat = q['category'] as String?;
-        return cat == 'Personal Growth' || cat == 'Identity / Core Values';
-      }).take(12).toList();
+      // Define safe categories and exclude judgmental tones/levels
+      const safeCategories = [
+        'Personal Growth',
+        'Identity / Core Values',
+        'Emotional Self',
+        'Social Life',           // only if gentle
+        'Religious Self',        // only if non-judgmental
+      ];
+
+      const unsafeKeywords = [
+        'performance', 'deadline', 'criticism', 'leadership', 'intelligence', 'IQ', 'skills', 'productivity',
+        'consistently meet', 'handle criticism', 'take initiative', 'adapt your skills', 'proactively seek',
+        'manage my time', 'stay motivated', 'challenge myself', 'support others in growth' // some feel too evaluative
+      ];
+
+      // Filter to safe questions only
+      final safeQuestions = allQuestions.where((q) {
+        final category = q['category'] as String? ?? '';
+        final questionText = (q['question'] as String? ?? '').toLowerCase();
+
+        // Must be in safe category
+        if (!safeCategories.contains(category)) return false;
+
+        // Exclude if contains unsafe keyword
+        for (final keyword in unsafeKeywords) {
+          if (questionText.contains(keyword.toLowerCase())) return false;
+        }
+
+        // Keep if tone is reflective/neutral/empathetic/warm
+        final tone = q['tone'] as String? ?? '';
+        if (['reflective', 'neutral', 'empathetic', 'warm'].contains(tone.toLowerCase())) return true;
+
+        return false;
+      }).toList();
+
+      if (safeQuestions.isEmpty) {
+        throw Exception('No safe questions found');
+      }
+
+      // Shuffle the safe list → true randomness across thousands
+      safeQuestions.shuffle();
+
+      // Take 12 random safe questions (change to 10 or 15 if you prefer)
+      final selected = safeQuestions.take(12).toList();
 
       setState(() {
-        _questions = List<Map<String, dynamic>>.from(filtered);
+        _questions = List<Map<String, dynamic>>.from(selected);
       });
 
-      // Pre-fill neutral (3)
+      // Pre-fill neutral answer (3 = "Sometimes")
       for (int i = 0; i < _questions.length; i++) {
         _answers[i.toString()] = 3;
       }
+
+      print('Loaded ${selected.length} random safe questions');
     } catch (e) {
+      print('Error loading questions: $e');
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Failed to load questions')),
+          SnackBar(
+            content: Text('Failed to load questions. Please try again.'),
+            backgroundColor: AppColors.errorColor,
+          ),
         );
       }
     }
