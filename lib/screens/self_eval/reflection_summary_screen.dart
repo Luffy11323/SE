@@ -6,6 +6,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:self_evaluator/constants/color_palette.dart';
 import 'package:self_evaluator/constants/app_routes.dart';
 import 'package:self_evaluator/services/reflection_service.dart';
+import 'package:self_evaluator/utils/haptic_feedback.dart';
 
 class ReflectionSummaryScreen extends StatefulWidget {
   final Map<String, int> answers;
@@ -53,35 +54,33 @@ class _ReflectionSummaryScreenState extends State<ReflectionSummaryScreen>
 
   void _generateGentleSummary() {
     int high = 0, medium = 0, low = 0;
-
     widget.answers.forEach((_, v) {
       if (v >= 4) {
         high++;
-      } else if (v == 3) { medium++;}
+      } else if (v == 3) {medium++;}
       else {low++;}
     });
 
     final total = widget.answers.length;
 
     _strengths = [
-      if (high >= total * 0.4) "You show consistency and presence in many areas.",
-      if (high >= total * 0.3) "There is quiet strength in your daily approach.",
-      "Your willingness to reflect honestly is beautiful.",
-    ]..removeWhere((s) => s.isEmpty);
+      if (high > total * 0.5) "You naturally lean toward presence and consistency in many moments.",
+      if (high > total * 0.35) "Quiet strengths show up in how you hold space for yourself.",
+      "The act of reflecting is already a deep kindness to yourself.",
+    ];
 
     _growthAreas = [
-      if (low > 0 || medium > total * 0.4) "Pausing longer in certain moments could feel supportive.",
-      if (medium > 0) "Small intentional steps may bring more ease.",
-      "Every reflection is already a step toward deeper self-kindness.",
-    ]..removeWhere((s) => s.isEmpty);
+      if (low + medium > total * 0.5) "There may be gentle invitations to pause more deeply in certain situations.",
+      if (medium > total * 0.4) "Small shifts in awareness could open even more ease.",
+      "Growth is never a race — it's just the next honest step.",
+    ];
 
     _nextSteps = [
-      "Notice one moment today to pause and breathe.",
-      "Offer yourself a gentle word when things feel heavy.",
-      "Continue showing up — one question at a time is meaningful.",
+      "Try one intentional breath when emotions rise today.",
+      "Notice a moment where you can speak gently to yourself.",
+      "Carry forward one small act of self-kindness this week.",
     ]..shuffle();
   }
-
   Future<void> _saveAndReturn() async {
     setState(() => _isSaving = true);
 
@@ -99,6 +98,7 @@ class _ReflectionSummaryScreenState extends State<ReflectionSummaryScreen>
     setState(() => _isSaving = false);
 
     if (success != null && mounted) {
+      Haptic.success();
       Navigator.pushReplacementNamed(context, AppRoutes.dashboard);
     } else if (mounted) {
       ScaffoldMessenger.of(context).showSnackBar(

@@ -5,6 +5,7 @@ import 'package:self_evaluator/constants/color_palette.dart';
 import 'package:self_evaluator/constants/app_routes.dart';
 import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:self_evaluator/utils/haptic_feedback.dart';
 
 class ReflectionQuestionsScreen extends StatefulWidget {
   const ReflectionQuestionsScreen({super.key});
@@ -286,6 +287,7 @@ class _ReflectionQuestionsScreenState extends State<ReflectionQuestionsScreen>
 
     return GestureDetector(
       onTap: () {
+        Haptic.selection();
         setState(() {
           _answers[_currentIndex.toString()] = value;
         });
