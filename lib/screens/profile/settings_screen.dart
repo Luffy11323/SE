@@ -283,7 +283,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
               style: TextStyle(color: AppColors.textLight.withValues(alpha: 0.7)),
             ),
             value: _religiousReminders,
-            activeColor: AppColors.accentGreen,
+            activeThumbColor: AppColors.accentGreen,
             onChanged: _toggleFaithReminders,
           ),
 

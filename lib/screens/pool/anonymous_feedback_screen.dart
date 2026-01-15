@@ -193,29 +193,28 @@ class _AnonymousFeedbackScreenState extends State<AnonymousFeedbackScreen> {
                                   child: Padding(
                                     padding: const EdgeInsets.all(16),
                                     child: Column(
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.start,
+                                      crossAxisAlignment: CrossAxisAlignment.start,
                                       children: [
                                         Text(question.question),
                                         const SizedBox(height: 8),
-                                        const Text(
-                                            "1 = Strongly Disagree, 5 = Strongly Agree"),
-                                        Row(
-                                          children:
-                                              [1, 2, 3, 4, 5].map((score) {
-                                            return Expanded(
-                                              child: RadioListTile<int>(
-                                                value: score,
-                                                groupValue:
-                                                    _answers[question.id],
-                                                onChanged: (value) => setState(
-                                                    () =>
-                                                        _answers[question.id] =
-                                                            value),
-                                                title: Text(score.toString()),
-                                              ),
-                                            );
-                                          }).toList(),
+                                        const Text("1 = Strongly Disagree, 5 = Strongly Agree"),
+                                        RadioGroup<int>(
+                                          groupValue: _answers[question.id],
+                                          onChanged: (value) {
+                                            if (value != null) {
+                                              setState(() => _answers[question.id] = value);
+                                            }
+                                          },
+                                          child: Row(
+                                            children: [1, 2, 3, 4, 5].map((score) {
+                                              return Expanded(
+                                                child: RadioListTile<int>(
+                                                  value: score,
+                                                  title: Text(score.toString()),
+                                                ),
+                                              );
+                                            }).toList(),
+                                          ),
                                         ),
                                       ],
                                     ),

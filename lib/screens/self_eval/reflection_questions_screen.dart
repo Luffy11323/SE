@@ -1,5 +1,6 @@
 // lib/screens/self_eval/reflection_questions_screen.dart
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:self_evaluator/constants/color_palette.dart';
 import 'package:self_evaluator/constants/app_routes.dart';
@@ -101,9 +102,13 @@ class _ReflectionQuestionsScreenState extends State<ReflectionQuestionsScreen>
         _answers[i.toString()] = 3;
       }
 
-      print('Loaded ${selected.length} random safe questions');
+      if (kDebugMode) {
+        print('Loaded ${selected.length} random safe questions');
+      }
     } catch (e) {
-      print('Error loading questions: $e');
+      if (kDebugMode) {
+        print('Error loading questions: $e');
+      }
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(

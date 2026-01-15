@@ -52,7 +52,7 @@ class _LoginScreenState extends State<LoginScreen> {
               'Facebook login failed: ${result.message ?? "Unknown error"}');
           return;
         }
-        credential = FacebookAuthProvider.credential(result.accessToken!.token);
+        credential = FacebookAuthProvider.credential(result.accessToken!.tokenString);
       }
 
       // ignore: unnecessary_null_comparison

@@ -94,26 +94,31 @@ class _SelfEvalScreenState extends State<SelfEvalScreen> {
             ),
             const SizedBox(height: 20),
             const Text("Rate 1-5 (Strongly Disagree to Strongly Agree)"),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: [1, 2, 3, 4, 5].map((score) {
-                return Expanded(
-                  child: RadioListTile<int>(
-                    value: score,
-                    groupValue: _selectedScores[currentIndex],
-                    onChanged: (value) async {
-                      await Vibration.hasVibrator().then((hasVibrator) {
-                        if (hasVibrator) {
-                          Vibration.vibrate(duration: 10);
-                        }
-                      });
-                      setState(() => _selectedScores[currentIndex] = value);
-                    },
-                    title: Text(score.toString()),
-                  ),
-                );
-              }).toList(),
+            RadioGroup<int>(
+              groupValue: _selectedScores[currentIndex],
+              onChanged: (value) async {
+                if (value != null) {
+                  await Vibration.hasVibrator().then((hasVibrator) {
+                    if (hasVibrator == true) {
+                      Vibration.vibrate(duration: 10);
+                    }
+                  });
+                  setState(() => _selectedScores[currentIndex] = value);
+                }
+              },
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [1, 2, 3, 4, 5].map((score) {
+                  return Expanded(
+                    child: RadioListTile<int>(
+                      value: score,
+                      title: Text(score.toString()),
+                    ),
+                  );
+                }).toList(),
+              ),
             ),
+
             const SizedBox(height: 20),
             ElevatedButton(
               onPressed: _submitAnswer,

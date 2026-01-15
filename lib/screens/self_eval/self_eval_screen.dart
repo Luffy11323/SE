@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:charts_flutter/flutter.dart' as charts;
+import 'package:fl_chart/fl_chart.dart';
 import 'package:intl/intl.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:share_plus/share_plus.dart';
@@ -44,9 +44,11 @@ class ResultsScreen extends StatelessWidget {
       final file = File('${dir.path}/evaluations.csv');
       await file.writeAsString(csvData);
 
-      await Share.shareXFiles(
-        [XFile(file.path)],
-        text: 'Here are your evaluation results.',
+      await SharePlus.instance.share(
+        ShareParams(
+          files: [XFile(file.path)],
+          text: 'Here are your evaluation results.',
+        ),
       );
     } catch (e) {
       if (context.mounted) {
@@ -73,6 +75,14 @@ class _ResultsBody extends StatefulWidget {
 
 class _ResultsBodyState extends State<_ResultsBody> {
   late Future<List<QueryDocumentSnapshot>> _historicalData;
+
+  final List<Color> _scoreColors = [
+    Colors.red,
+    Colors.orange,
+    Colors.yellow,
+    Colors.lightGreen,
+    Colors.green,
+  ];
 
   @override
   void initState() {
@@ -103,14 +113,9 @@ class _ResultsBodyState extends State<_ResultsBody> {
 
         return ListView(
           children: [
-            // Current Evaluation Card
             _buildCurrentScoresCard(),
-
-            // Analytics Section
             if (historicalData.isNotEmpty)
               _buildAnalyticsSection(historicalData),
-
-            // History List
             _buildHistoryList(historicalData),
           ],
         );
@@ -130,9 +135,8 @@ class _ResultsBodyState extends State<_ResultsBody> {
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 16),
-            ...widget.currentScores.entries.map(
-              (e) => _buildScoreRow(e.key, e.value),
-            ),
+            ...widget.currentScores.entries
+                .map((e) => _buildScoreRow(e.key, e.value)),
           ],
         ),
       ),
@@ -148,7 +152,7 @@ class _ResultsBodyState extends State<_ResultsBody> {
           SizedBox(
             width: 200,
             child: LinearProgressIndicator(
-              value: score / 50, // Adjust denominator as needed
+              value: score / 50,
               backgroundColor: Colors.grey[200],
               color: _getScoreColor(score),
             ),
@@ -172,34 +176,34 @@ class _ResultsBodyState extends State<_ResultsBody> {
         const SizedBox(height: 24),
         const Text('PERFORMANCE ANALYTICS'),
         const Divider(),
-        SizedBox(
-          height: 300,
-          child: charts.TimeSeriesChart(
-            _buildTrendData(historicalData),
-            animate: true,
-          ),
-        ),
+        SizedBox(height: 300, child: _buildLineChart(historicalData)),
         const SizedBox(height: 24),
       ],
     );
   }
 
-  List<charts.Series<TimeSeriesScore, DateTime>> _buildTrendData(
-      List<QueryDocumentSnapshot> docs) {
-    return [
-      charts.Series<TimeSeriesScore, DateTime>(
-        id: 'Scores',
-        data: docs.map((doc) {
-          final data = doc.data() as Map<String, dynamic>;
-          return TimeSeriesScore(
-            (data['timestamp'] as Timestamp).toDate(),
-            (data['score'] as num).toDouble(),
-          );
-        }).toList(),
-        domainFn: (ts, _) => ts.time,
-        measureFn: (ts, _) => ts.score,
-      )
-    ];
+  Widget _buildLineChart(List<QueryDocumentSnapshot> historicalData) {
+    final spots = historicalData.reversed.toList().asMap().entries.map((entry) {
+      final data = entry.value.data() as Map<String, dynamic>;
+      return FlSpot(entry.key.toDouble(), (data['score'] as num).toDouble());
+    }).toList();
+
+    return LineChart(
+      LineChartData(
+        titlesData: FlTitlesData(show: true),
+        gridData: FlGridData(show: true),
+        borderData: FlBorderData(show: true),
+        lineBarsData: [
+          LineChartBarData(
+            spots: spots,
+            isCurved: true,
+            color: Colors.blue,
+            barWidth: 3,
+            dotData: FlDotData(show: true),
+          ),
+        ],
+      ),
+    );
   }
 
   Widget _buildHistoryList(List<QueryDocumentSnapshot> historicalData) {
@@ -223,14 +227,7 @@ class _ResultsBodyState extends State<_ResultsBody> {
   }
 
   Color _getScoreColor(int score) {
-    final percentage = score / 50; // Adjust denominator to match your max score
+    final percentage = score / 50;
     return Color.lerp(Colors.red, Colors.green, percentage) ?? Colors.grey;
   }
-}
-
-class TimeSeriesScore {
-  final DateTime time;
-  final double score;
-
-  TimeSeriesScore(this.time, this.score);
 }
