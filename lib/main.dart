@@ -7,6 +7,9 @@ import 'package:self_evaluator/screens/login_screen.dart';
 import 'package:self_evaluator/screens/signup_screen.dart';
 import 'package:self_evaluator/screens/self_eval/self_eval_screen.dart';
 import 'package:self_evaluator/screens/pool/my_pools_screen.dart';
+import 'package:self_evaluator/screens/self_eval/reflection_home_screen.dart';
+import 'package:self_evaluator/screens/self_eval/reflection_questions_screen.dart';
+import 'package:self_evaluator/screens/self_eval/reflection_summary_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -45,6 +48,19 @@ class MyApp extends StatelessWidget {
             ),
         '/login': (context) => const LoginScreen(),
         '/signup': (context) => const SignupScreen(),
+        '/reflection/home': (context) => const ReflectionHomeScreen(),
+        '/reflection/questions': (context) => const ReflectionQuestionsScreen(),
+        '/reflection/summary': (context) {
+          // 1. Get the package sent by the Questions screen
+          final args = ModalRoute.of(context)!.settings.arguments
+              as Map<String, dynamic>;
+
+          // 2. Open the screen WITH the data
+          return ReflectionSummaryScreen(
+            answers: args['answers'] as Map<String, int>,
+            startedAt: args['startedAt'] as DateTime?,
+          );
+        },
         '/evaluate': (context) => const SelfEvalScreen(category: 'Default'),
         '/results': (context) {
           final args = ModalRoute.of(context)!.settings.arguments
