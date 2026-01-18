@@ -3,10 +3,16 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:self_evaluator/constants/colors.dart';
 import 'package:self_evaluator/constants/strings.dart';
 import 'package:self_evaluator/constants/app_routes.dart';
 import 'package:intl/intl.dart';
+
+// Known screens
+import 'package:self_evaluator/screens/self_eval/reflection_home_screen.dart';
+import 'package:self_evaluator/screens/chatbot/chatbot_screen.dart';
+import 'package:self_evaluator/screens/journeys/journeys_screen.dart';
 
 class DashboardScreen extends StatefulWidget {
   const DashboardScreen({super.key});
@@ -60,7 +66,15 @@ class _DashboardScreenState extends State<DashboardScreen>
   }
 
   void _onNavItemTapped(int index) {
-    setState(() => _selectedIndex = index);
+    if (index == 4) {
+      // Chatbot tab — navigate to ChatbotScreen
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => const ChatbotScreen()),
+      );
+    } else {
+      setState(() => _selectedIndex = index);
+    }
   }
 
   Widget _buildHomeContent() {
@@ -71,7 +85,6 @@ class _DashboardScreenState extends State<DashboardScreen>
         children: [
           const Spacer(flex: 2),
 
-          // Subtle welcome / nudge
           FadeTransition(
             opacity: _fadeAnim,
             child: Column(
@@ -116,7 +129,6 @@ class _DashboardScreenState extends State<DashboardScreen>
 
           const Spacer(flex: 2),
 
-          // The only prominent action — big, gentle, inviting
           GestureDetector(
             onTap: () {
               Navigator.pushNamed(context, AppRoutes.reflectionHome);
@@ -179,8 +191,17 @@ class _DashboardScreenState extends State<DashboardScreen>
   }
 
   String _getUserFirstName() {
-    // Placeholder — later read from Firestore or auth displayName
-    return "Friend"; // Replace with real name when you fetch it
+    final user = FirebaseAuth.instance.currentUser;
+    if (user?.displayName != null && user!.displayName!.isNotEmpty) {
+      return user.displayName!.split(' ').first;
+    }
+    return "Friend";
+  }
+
+  @override
+  void dispose() {
+    _animController.dispose();
+    super.dispose();
   }
 
   @override
@@ -191,8 +212,9 @@ class _DashboardScreenState extends State<DashboardScreen>
         index: _selectedIndex,
         children: [
           _buildHomeContent(), // Home / Reflection entry
-          const Center(child: Text("History coming soon", style: TextStyle(color: AppColors.textLight))), // Placeholder for now
-          const Center(child: Text("Settings coming soon", style: TextStyle(color: AppColors.textLight))), // Placeholder
+          const JourneysScreen(), // Journeys tab
+          const Center(child: Text("History coming soon", style: TextStyle(color: AppColors.textLight))),
+          const Center(child: Text("Settings coming soon", style: TextStyle(color: AppColors.textLight))),
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
@@ -209,12 +231,22 @@ class _DashboardScreenState extends State<DashboardScreen>
             label: 'Home',
           ),
           BottomNavigationBarItem(
+            icon: Icon(Icons.explore_rounded),
+            activeIcon: Icon(Icons.explore),
+            label: 'Journeys',
+          ),
+          BottomNavigationBarItem(
             icon: Icon(Icons.history_rounded),
             label: 'History',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.settings_rounded),
             label: 'Settings',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.chat_bubble_outline_rounded),
+            activeIcon: Icon(Icons.chat_bubble_rounded),
+            label: 'Chat',
           ),
         ],
       ),
