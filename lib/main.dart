@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:self_evaluator/constants/colors.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
 
 import 'firebase_options.dart';
 
@@ -28,6 +29,10 @@ void main() async {
 
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
+  );
+  await Supabase.initialize(
+    url: 'https://jjnbusmjsgjyjgomhuij.supabase.co', // your Supabase URL
+    anonKey: 'sb_publishable_b2j324qGKaNE_gL-CuiiFw_R8X2aBEp', // ← your ANON key (not service_role!)
   );
 
   runApp(const MyApp());
