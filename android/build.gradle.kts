@@ -32,7 +32,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath("com.android.tools.build:gradle:7.3.0")
+        classpath("com.android.tools.build:gradle:8.9.1")
 classpath("com.google.gms:google-services:4.4.3")
 // Firebase services plugin (ensure this is the latest version)
     }
