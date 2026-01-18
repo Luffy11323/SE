@@ -1,6 +1,6 @@
 // lib/widgets/loading_spinner.dart
 import 'package:flutter/material.dart';
-import 'package:self_evaluator/constants/color_palette.dart';
+import 'package:self_evaluator/constants/colors.dart';
 
 class LoadingSpinner extends StatelessWidget {
   const LoadingSpinner({super.key});

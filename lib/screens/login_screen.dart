@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:self_evaluator/constants/string_constants.dart';
+import 'package:self_evaluator/constants/strings.dart';
 import 'package:self_evaluator/widgets/custom_button.dart';
 import 'package:self_evaluator/screens/dashboard_screen.dart';
 import 'package:self_evaluator/screens/signup_screen.dart';

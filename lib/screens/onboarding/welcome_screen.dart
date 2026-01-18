@@ -1,8 +1,8 @@
 // lib/screens/onboarding/welcome_screen.dart
 
 import 'package:flutter/material.dart';
-import 'package:self_evaluator/constants/color_palette.dart';
-import 'package:self_evaluator/constants/string_constants.dart';
+import 'package:self_evaluator/constants/colors.dart';
+import 'package:self_evaluator/constants/strings.dart';
 import 'package:self_evaluator/constants/app_routes.dart'; // ← add this file next if not already
 import 'package:flutter_card_swiper/flutter_card_swiper.dart';
 

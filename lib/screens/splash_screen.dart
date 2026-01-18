@@ -1,6 +1,6 @@
 // lib/screens/splash_screen.dart (Modified)
 import 'package:flutter/material.dart';
-import 'package:self_evaluator/constants/string_constants.dart';
+import 'package:self_evaluator/constants/strings.dart';
 import 'package:go_router/go_router.dart';
 
 class SplashScreen extends StatefulWidget {

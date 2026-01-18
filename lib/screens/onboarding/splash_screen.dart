@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
 import 'package:self_evaluator/constants/app_routes.dart'; // ← we'll create this later
-import 'package:self_evaluator/constants/color_palette.dart';
-import 'package:self_evaluator/constants/string_constants.dart';
+import 'package:self_evaluator/constants/colors.dart';
+import 'package:self_evaluator/constants/strings.dart';
 import 'package:firebase_auth/firebase_auth.dart'; // if using Firebase
 
 class SplashScreen extends StatefulWidget {

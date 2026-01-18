@@ -1,7 +1,7 @@
 // lib/screens/islamic_wellness/daily_hadith_screen.dart
 import 'package:flutter/material.dart';
-import 'package:self_evaluator/constants/string_constants.dart';
-import 'package:self_evaluator/constants/color_palette.dart';
+import 'package:self_evaluator/constants/strings.dart';
+import 'package:self_evaluator/constants/colors.dart';
 
 class DailyHadithScreen extends StatelessWidget {
   const DailyHadithScreen({super.key});

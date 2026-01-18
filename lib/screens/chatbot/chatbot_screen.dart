@@ -1,7 +1,7 @@
 // lib/screens/chatbot/chatbot_screen.dart
 import 'package:flutter/material.dart';
-import 'package:self_evaluator/constants/string_constants.dart';
-import 'package:self_evaluator/constants/color_palette.dart';
+import 'package:self_evaluator/constants/strings.dart';
+import 'package:self_evaluator/constants/colors.dart';
 
 class ChatbotScreen extends StatefulWidget {
   const ChatbotScreen({super.key});

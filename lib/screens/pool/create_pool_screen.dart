@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/services.dart';
-import 'package:self_evaluator/constants/color_palette.dart';
+import 'package:self_evaluator/constants/colors.dart';
 import 'package:self_evaluator/models/feedback_question_model.dart';
 import 'dart:math';
 

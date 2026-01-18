@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:self_evaluator/constants/color_palette.dart';
+import 'package:self_evaluator/constants/colors.dart';
 import 'package:self_evaluator/screens/pool/create_pool_screen.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:vibration/vibration.dart';

@@ -3,8 +3,8 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:self_evaluator/constants/color_palette.dart';
-import 'package:self_evaluator/constants/string_constants.dart';
+import 'package:self_evaluator/constants/colors.dart';
+import 'package:self_evaluator/constants/strings.dart';
 import 'package:self_evaluator/constants/app_routes.dart';
 
 class SignupScreen extends StatefulWidget {

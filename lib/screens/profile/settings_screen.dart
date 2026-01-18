@@ -9,7 +9,7 @@ import 'package:timezone/timezone.dart' as tz;
 import 'package:timezone/data/latest.dart' as tz;
 import 'package:permission_handler/permission_handler.dart';
 
-import 'package:self_evaluator/constants/color_palette.dart';
+import 'package:self_evaluator/constants/colors.dart';
 import 'package:self_evaluator/constants/app_routes.dart';
 
 class SettingsScreen extends StatefulWidget {

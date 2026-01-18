@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:self_evaluator/constants/color_palette.dart';
+import 'package:self_evaluator/constants/colors.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-
-import 'package:self_evaluator/constants/string_constants.dart';
+import 'package:self_evaluator/constants/strings.dart';
 import 'package:self_evaluator/widgets/custom_button.dart';
 import 'package:self_evaluator/screens/login_screen.dart';
 

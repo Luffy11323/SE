@@ -1,6 +1,6 @@
 // lib/screens/islamic_wellness/spiritual_eval_screen.dart
 import 'package:flutter/material.dart';
-import 'package:self_evaluator/constants/string_constants.dart';
+import 'package:self_evaluator/constants/strings.dart';
 
 class SpiritualEvalScreen extends StatelessWidget {
   const SpiritualEvalScreen({super.key});

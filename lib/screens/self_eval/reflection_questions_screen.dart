@@ -2,7 +2,7 @@
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:self_evaluator/constants/color_palette.dart';
+import 'package:self_evaluator/constants/colors.dart';
 import 'package:self_evaluator/constants/app_routes.dart';
 import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;

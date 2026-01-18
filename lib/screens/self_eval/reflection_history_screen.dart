@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:intl/intl.dart';
-import 'package:self_evaluator/constants/color_palette.dart';
+import 'package:self_evaluator/constants/colors.dart';
 import 'package:self_evaluator/constants/app_routes.dart';
 import 'package:self_evaluator/services/reflection_service.dart';
 import 'package:self_evaluator/utils/haptic_feedback.dart';
